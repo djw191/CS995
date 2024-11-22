@@ -1,0 +1,60 @@
+.pause-button {
+    font-size: 24px;
+    -unity-font-definition: url("project://database/Assets/Roguelike2D/TutorialAssets/Fonts/PressStart2P-Regular.ttf?fileID=12800000&guid=b284a6525342f44599e9ce79e37c2d61&type=3#PressStart2P-Regular");
+    top: auto;
+    align-items: auto;
+    justify-content: flex-start;
+    align-self: center;
+    align-content: auto;
+    bottom: auto;
+    -unity-text-align: middle-center;
+    flex-grow: initial;
+    flex-basis: auto;
+    transform-origin: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    color: rgb(255, 255, 255);
+}
+
+.pause-button:focus {
+    background-color: rgba(255, 255, 255, 0.39);
+}
+
+.pause-toggle {
+    -unity-font-definition: url("project://database/Assets/Roguelike2D/TutorialAssets/Fonts/PressStart2P-Regular.ttf?fileID=12800000&guid=b284a6525342f44599e9ce79e37c2d61&type=3#PressStart2P-Regular");
+    color: rgb(255, 255, 255);
+}
+
+.pause-button:hover {
+    background-color: rgba(255, 255, 255, 0.39);
+}
+
+.slider {
+    font-size: 14px;
+    -unity-font-definition: url("project://database/Assets/Roguelike2D/TutorialAssets/Fonts/PressStart2P-Regular.ttf?fileID=12800000&guid=b284a6525342f44599e9ce79e37c2d61&type=3#PressStart2P-Regular");
+    top: auto;
+    align-items: auto;
+    justify-content: flex-start;
+    align-self: center;
+    align-content: auto;
+    bottom: auto;
+    -unity-text-align: middle-center;
+    flex-grow: initial;
+    flex-basis: auto;
+    transform-origin: center;
+    background-color: rgba(255, 255, 255, 0);
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    color: rgb(255, 255, 255);
+}
+
+.slider-form {
+    width: 95%;
+    align-content: auto;
+    -unity-text-align: middle-left;
+}

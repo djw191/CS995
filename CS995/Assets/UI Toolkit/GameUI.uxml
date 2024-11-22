@@ -1,0 +1,30 @@
+<engine:UXML xmlns:engine="UnityEngine.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/hoverable.uss?fileID=7433441132597879392&amp;guid=d693038073dc11e448ec4b33d01c5782&amp;type=3#hoverable" />
+    <engine:Label text="Label" name="FoodLabel" style="-unity-font-definition: url(&quot;project://database/Assets/Roguelike2D/TutorialAssets/Fonts/PressStart2P-Regular.ttf?fileID=12800000&amp;guid=b284a6525342f44599e9ce79e37c2d61&amp;type=3#PressStart2P-Regular&quot;); color: rgb(255, 255, 255); -unity-text-align: upper-center; bottom: 0; position: absolute; right: 0; left: 0;" />
+    <engine:VisualElement name="GameOverPanel" enabled="true" style="flex-grow: 1; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.78); visibility: visible; align-content: center; justify-content: space-evenly; display: flex;">
+        <engine:Label text="Game Over" name="GameOverMessage" style="align-items: center; justify-content: space-around; background-color: rgba(255, 255, 255, 0); color: rgb(255, 255, 255); -unity-font-definition: url(&quot;project://database/Assets/Roguelike2D/TutorialAssets/Fonts/PressStart2P-Regular.ttf?fileID=12800000&amp;guid=b284a6525342f44599e9ce79e37c2d61&amp;type=3#PressStart2P-Regular&quot;); align-self: center; align-content: flex-start; -unity-text-align: middle-center; font-size: 24px;" />
+        <engine:Button text="RESTART" name="RestartButton" selectable="true" class="pause-button" />
+        <engine:Button text="QUIT" name="QuitButton" selectable="true" class="pause-button" />
+    </engine:VisualElement>
+    <engine:VisualElement name="PausePanel" enabled="true" style="flex-grow: 1; -unity-background-image-tint-color: rgba(255, 255, 255, 0); background-color: rgba(0, 0, 0, 0.78); visibility: visible; justify-content: space-evenly; align-content: center; align-items: center; display: flex; top: 0; position: absolute; left: 0; right: 0; bottom: 0;">
+        <engine:Label text="GAME PAUSED" name="PauseLabel" style="-unity-font-definition: url(&quot;project://database/Assets/Roguelike2D/TutorialAssets/Fonts/PressStart2P-Regular.ttf?fileID=12800000&amp;guid=b284a6525342f44599e9ce79e37c2d61&amp;type=3#PressStart2P-Regular&quot;); color: rgb(255, 255, 255); -unity-text-align: middle-center; font-size: 24px; top: auto; align-items: center; align-self: center; align-content: auto;" />
+        <engine:Button text="RESUME" name="ResumeButton" selectable="true" class="pause-button" />
+        <engine:Button text="TOGGLE INSTANT MOVEMENT" name="ToggleIMButton" selectable="true" class="pause-button" />
+        <engine:Button text="QUIT" name="QuitButton" selectable="true" class="pause-button" />
+    </engine:VisualElement>
+    <engine:VisualElement name="ConditionPanel" enabled="true" style="flex-grow: 1; -unity-background-image-tint-color: rgba(255, 255, 255, 0); background-color: rgb(63, 63, 63); visibility: visible; justify-content: space-evenly; align-content: center; align-items: center; display: flex; top: 0; position: absolute; left: 0; right: 0; bottom: 0;">
+        <engine:Label text="CONDITIONS" name="ConditionLabel" style="-unity-font-definition: url(&quot;project://database/Assets/Roguelike2D/TutorialAssets/Fonts/PressStart2P-Regular.ttf?fileID=12800000&amp;guid=b284a6525342f44599e9ce79e37c2d61&amp;type=3#PressStart2P-Regular&quot;); color: rgb(255, 255, 255); -unity-text-align: middle-center; font-size: 24px; top: auto; align-items: center; align-self: center; align-content: auto;" />
+        <engine:VisualElement name="ConditionsElement" style="flex-grow: 1; height: 50%; justify-content: space-evenly; align-items: stretch; width: 75%;">
+            <engine:Slider label="Food" value="42" high-value="100" name="FoodSlider" class="slider slider-form" />
+            <engine:Slider label="Food X" value="42" high-value="100" name="FoodMultiplierSlider" class="slider slider-form" />
+            <engine:Slider label="Walls" value="42" high-value="100" name="WallSlider" class="slider slider-form" />
+            <engine:Slider label="Walls X" value="42" high-value="100" name="WallMultiplierSlider" class="slider slider-form" />
+            <engine:SliderInt label="Attack" value="42" high-value="100" name="AttackSlider" show-input-field="false" fill="false" language-direction="Inherit" direction="Horizontal" inverted="false" class="slider slider-form" />
+            <engine:SliderInt label="Bonus" value="42" high-value="100" name="BonusSlider" show-input-field="false" fill="false" language-direction="Inherit" direction="Horizontal" inverted="false" class="slider slider-form" />
+            <engine:Slider label="Bonus X" value="42" high-value="100" name="BonusMultiplierSlider" class="slider slider-form" />
+            <engine:SliderInt label="Waypoints" value="42" high-value="100" name="WaypointSlider" show-input-field="false" fill="false" language-direction="Inherit" direction="Horizontal" inverted="false" class="slider slider-form" />
+        </engine:VisualElement>
+        <engine:TextField label="Multiplier:" placeholder-text="1.0X" readonly="true" focusable="false" select-all-on-mouse-up="false" select-all-on-focus="false" select-word-by-double-click="false" select-line-by-triple-click="false" name="MultiplierTextField" class="pause-toggle" style="font-size: 22px; align-content: flex-start; justify-content: flex-start; align-items: center; -unity-background-image-tint-color: rgba(255, 255, 255, 0);" />
+        <engine:Button text="RESUME" name="ResumeButton" selectable="true" enabled="true" class="pause-button" />
+    </engine:VisualElement>
+</engine:UXML>
