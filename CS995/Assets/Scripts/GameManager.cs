@@ -120,6 +120,7 @@ public class GameManager : MonoBehaviour
     public void ConsumeFoodPlayer(int amount)
     {
         ChangeFood(amount);
+        UIManager.DisplayMessageBox($"You consumed {amount} food.");
     }
 
     public void UpdateMovementFoodPlayer()

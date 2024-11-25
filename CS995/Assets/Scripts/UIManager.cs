@@ -32,6 +32,9 @@ public class UIManager : MonoBehaviour
     private Slider _wallSlider;
     private TextField _multiplierTextField;
     private BoardManager _boardManager;
+    private VisualElement _messageBoxPanel;
+    private Label _messageLabel;
+    private Button _messageBoxResumeButton;
 
     private void Start()
     {
@@ -121,6 +124,13 @@ public class UIManager : MonoBehaviour
 
         #endregion
 
+        #region MessageBoxPanel
+        _messageBoxPanel = GetPanel("MessageBoxPanel");
+        _messageLabel = _messageBoxPanel.Q<Label>("MessageLabel");
+        _messageBoxResumeButton = _messageBoxPanel.Q<Button>("ResumeButton");
+        _messageBoxResumeButton.clicked += ToggleMessageBoxPanel;
+        #endregion
+
 
         _gameManager.OnLevelComplete += SetOkayToPause;
     }
@@ -171,6 +181,7 @@ public class UIManager : MonoBehaviour
         _toggleImButton.clicked -= _boardManager.ToggleMovementSpeed;
         _gameOverQuit.clicked -= Application.Quit;
         _conditionResumeButton.clicked -= ToggleConditionPanel;
+        _messageBoxResumeButton.clicked -= ToggleMessageBoxPanel;
     }
 
     private void SetOkayToPause()
@@ -183,6 +194,21 @@ public class UIManager : MonoBehaviour
         if (!GameManager.Instance.Player.IsGameOver) return;
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void DisplayMessageBox(string message)
+    {
+        _messageLabel.text = message;
+        ToggleMessageBoxPanel();
+        _messageBoxResumeButton.Focus();
+    }
+    
+    private void ToggleMessageBoxPanel()
+    {
+        _messageBoxPanel.style.visibility = _messageBoxPanel.style.visibility.Equals(Visibility.Visible)
+            ? Visibility.Hidden
+            : Visibility.Visible;
+        _gameManager.TogglePause();
     }
 
     public void TogglePauseMenu()
