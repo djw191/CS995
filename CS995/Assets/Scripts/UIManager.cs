@@ -82,41 +82,41 @@ public class UIManager : MonoBehaviour
 
         _conditionResumeButton = _conditionPanel.Q<Button>("ResumeButton");
         _conditionResumeButton.clicked += ToggleConditionPanel;
-        
+
         _conditionsElement = _conditionPanel.Q<VisualElement>("ConditionsElement");
-        
+
         _foodSlider = _conditionsElement.Q<Slider>("FoodSlider");
         _foodSlider.highValue = 1.0f;
         _foodSlider.value = _boardManager.TargetFood;
         _foodMultiplierSlider = _conditionsElement.Q<Slider>("FoodMultiplierSlider");
         _foodMultiplierSlider.highValue = 4.0f;
         _foodMultiplierSlider.value = _gameManager.FoodMultiplier;
-        
+
         _wallSlider = _conditionsElement.Q<Slider>("WallSlider");
         _wallSlider.highValue = 1.0f;
         _wallSlider.value = _boardManager.TargetWalls;
         _wallMultiplierSlider = _conditionsElement.Q<Slider>("WallMultiplierSlider");
         _wallMultiplierSlider.highValue = 4.0f;
         _wallMultiplierSlider.value = _gameManager.WallMultiplier;
-        
+
         _attackSlider = _conditionsElement.Q<SliderInt>("AttackSlider");
         _attackSlider.highValue = _gameManager.CurrentLevel + 9;
         _attackSlider.value = _gameManager.Player.AttackPower;
-        
+
         _bonusSlider = _conditionsElement.Q<SliderInt>("BonusSlider");
         _bonusSlider.highValue = (_boardManager.boardSize.x - 2) * (_boardManager.boardSize.y - 2) / 2;
         _bonusSlider.value = _boardManager.TargetPowerups;
         _bonusMultiplierSlider = _conditionsElement.Q<Slider>("BonusMultiplierSlider");
         _bonusMultiplierSlider.value = _gameManager.BonusMultiplier;
         _bonusMultiplierSlider.highValue = 4.0f;
-        
+
         _waypointSlider = _conditionsElement.Q<SliderInt>("WaypointSlider");
         _waypointSlider.highValue = _gameManager.TurnManager.TurnCount + 9;
         _waypointSlider.value = _gameManager.WaypointTarget;
-        
+
         _conditionsElement.RegisterCallback<ChangeEvent<float>>(OnSliderChanged);
         _conditionsElement.RegisterCallback<ChangeEvent<int>>(OnSliderIntChanged);
-        
+
         _multiplierTextField = _conditionPanel.Q<TextField>("MultiplierTextField");
         _multiplierTextField.value = "1.0x";
 
@@ -125,18 +125,27 @@ public class UIManager : MonoBehaviour
         #endregion
 
         #region MessageBoxPanel
+
         _messageBoxPanel = GetPanel("MessageBoxPanel");
         _messageLabel = _messageBoxPanel.Q<Label>("MessageLabel");
         _messageBoxResumeButton = _messageBoxPanel.Q<Button>("ResumeButton");
         _messageBoxResumeButton.clicked += ToggleMessageBoxPanel;
+
         #endregion
 
 
         _gameManager.OnLevelComplete += SetOkayToPause;
     }
 
-    private void OnSliderChanged(ChangeEvent<float> _) => UpdateValues();
-    private void OnSliderIntChanged(ChangeEvent<int> _) => UpdateValues();
+    private void OnSliderChanged(ChangeEvent<float> _)
+    {
+        UpdateValues();
+    }
+
+    private void OnSliderIntChanged(ChangeEvent<int> _)
+    {
+        UpdateValues();
+    }
 
     private void UpdateValues()
     {
@@ -147,31 +156,26 @@ public class UIManager : MonoBehaviour
         mult *= _boardManager.TargetWalls / _boardManager.initTargetWalls;
         _gameManager.Player.AttackPower = _attackSlider.value;
         mult *= _gameManager.Player.initAttackPower / (float)_gameManager.Player.AttackPower;
-        
+
         //These are always default 0, base mult on that
         _gameManager.WaypointTarget = _waypointSlider.value;
         mult *= _gameManager.WaypointTarget < 1 ? 1 : (float)_gameManager.WaypointTarget + 1;
         _boardManager.TargetPowerups = _bonusSlider.value;
         mult *= _boardManager.TargetPowerups < 1 ? 1 : 1 / ((float)_boardManager.TargetPowerups + 1);
-        
+
         _gameManager.FoodMultiplier = _foodMultiplierSlider.value;
         mult *= 1 / _gameManager.FoodMultiplier;
         _gameManager.WallMultiplier = _wallMultiplierSlider.value;
         mult *= _gameManager.WallMultiplier;
         _gameManager.BonusMultiplier = _bonusMultiplierSlider.value;
         mult *= 1 / _gameManager.BonusMultiplier;
-        
+
         _multiplierTextField.value = mult.ToString("n2") + "X";
         _gameManager.ScoreMultiplier = mult;
         if (float.IsPositiveInfinity(mult) || float.IsNegativeInfinity(mult) || mult.Equals(0f) || float.IsNaN(mult))
-        {
             _conditionResumeButton.SetEnabled(false);
-        }
         else
-        {
             _conditionResumeButton.SetEnabled(true);
-        }
-
     }
 
     private void OnDestroy()
@@ -202,7 +206,7 @@ public class UIManager : MonoBehaviour
         ToggleMessageBoxPanel();
         _messageBoxResumeButton.Focus();
     }
-    
+
     private void ToggleMessageBoxPanel()
     {
         _messageBoxPanel.style.visibility = _messageBoxPanel.style.visibility.Equals(Visibility.Visible)
@@ -227,7 +231,8 @@ public class UIManager : MonoBehaviour
         var previousHighScore = PlayerPrefs.GetFloat("HighScore", 0);
         _gameManager.TallyScore();
         _gameOverPanel.style.visibility = Visibility.Visible;
-        _gameOverMessage.text = $"Game Over\n\nYou scored: {_gameManager.Score:n2}\n\nPrevious high Score: {previousHighScore}";
+        _gameOverMessage.text =
+            $"Game Over\n\nYou scored: {_gameManager.Score:n2}\n\nPrevious high Score: {previousHighScore}";
         if (_gameManager.Score > previousHighScore) PlayerPrefs.SetFloat("HighScore", _gameManager.Score);
     }
 
