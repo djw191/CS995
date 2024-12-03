@@ -61,7 +61,7 @@ namespace Board
             //
             // _spriteRenderer.flipX = xDiff > 0;
             
-            Vector2Int nextCell = _boardManager.FindPath(Position, _player.Position);
+            Vector2Int nextCell = _boardManager.GetNextCell(Position, _player.Position);
             
             var diff = new Vector2Int(nextCell.x - Position.x, nextCell.y - Position.y);
             

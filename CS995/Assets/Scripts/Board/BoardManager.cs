@@ -179,10 +179,22 @@ namespace Board
         }
         
         //A Star that returns just next target cell
-        public Vector2Int FindPath(Vector2Int start, Vector2Int goal)
+        public Vector2Int GetNextCell(Vector2Int start, Vector2Int goal)
         {
             AStarPathfinder astarPathFinder = new AStarPathfinder(_boardData);
             return astarPathFinder.GetNextCell(start, goal);
+        }
+
+        public int GetTraversalCost(Vector2Int start, Vector2Int goal)
+        {
+            AStarPathfinder astarPathFinder = new AStarPathfinder(_boardData);
+            return astarPathFinder.GetTotalCost(start, goal);
+        }
+
+        public int GetGoalDistance()
+        {
+            return GetTraversalCost(GameManager.Instance.Player.Position,
+                new Vector2Int(boardSize.x - 2, boardSize.y - 2));
         }
 
         public void FinishAttacking() => _allowedToMove = true;

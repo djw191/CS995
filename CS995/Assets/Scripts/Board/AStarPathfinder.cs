@@ -9,7 +9,7 @@ namespace Board
         private PathNode[,] _grid;
         private List<PathNode> _openList;
         private List<PathNode> _closedList;
-        private CellData[,] _cells;
+        private readonly CellData[,] _cells;
 
         public AStarPathfinder(CellData[,] grid)
         {
@@ -17,6 +17,16 @@ namespace Board
             _cells = grid;
         }
 
+        public int GetTotalCost(Vector2Int start, Vector2Int end)
+        {
+            var path = FindPath(start, end);
+            int totalCost = path.Count - 1;
+            foreach (var pathNode in path)
+            {
+                totalCost += pathNode.TraversalCost;
+            }
+            return totalCost;
+        }
         public Vector2Int GetNextCell(Vector2Int start, Vector2Int end)
         {
             var path = FindPath(start, end);
@@ -28,19 +38,20 @@ namespace Board
             {
                 for (int j = 0; j < _grid.GetLength(1); j++)
                 {
-                    PathNode pathNode = _grid[i, j] = new PathNode(_grid,i, j);
+                    PathNode pathNode = _grid[i, j] = new PathNode(_grid,i, j, _cells[i, j].ContainedObject is WallObject w ? w.HitPoints : 0, _cells[i, j].Passable);
                     pathNode.GCost = int.MaxValue;
                     pathNode.Parent = null;
-                    if(!_cells[i, j].Passable) pathNode.Passable = false;
                 }
             }
+            
             PathNode startNode = _grid[start.x, start.y];
             PathNode endNode = _grid[end.x, end.y];
             _openList = new List<PathNode> { startNode };
             _closedList = new List<PathNode>();
 
             startNode.GCost = 0;
-            startNode.HCost = ManhattanDistance(startNode, endNode);
+            // startNode.HCost = ManhattanDistance(startNode, endNode);
+            startNode.HCost = 0;
 
             while (_openList.Count > 0)
             {
@@ -60,21 +71,19 @@ namespace Board
                         _closedList.Add(neighbor);
                         continue;
                     }
-                    int possibleGCost = currentNode.GCost + 1;
-                    CellObject containedObject = _cells[neighbor.X, neighbor.Y].ContainedObject;
-                    if (containedObject != null)
+
+                    if (neighbor.TraversalCost > 0)
                     {
-                        if (containedObject is WallObject w)
-                        {
-                            possibleGCost += w.HitPoints;
-                        }
+                        ;
                     }
+                    int possibleGCost = currentNode.GCost + 1 + neighbor.TraversalCost;
                     
                     if (possibleGCost >= neighbor.GCost) continue;
                     
                     neighbor.Parent = currentNode;
                     neighbor.GCost = possibleGCost;
-                    neighbor.HCost = ManhattanDistance(neighbor, endNode);
+                    // neighbor.HCost = ManhattanDistance(neighbor, endNode);
+                    neighbor.HCost = 0;
                     if(!_openList.Contains(neighbor)) _openList.Add(neighbor);
                 }
             }
@@ -141,6 +150,7 @@ namespace Board
         public int X;
         public int Y;
         public bool Passable = true;
+        public int TraversalCost { get; private set; }
 
         private int _gCost;
         public int GCost
@@ -167,11 +177,13 @@ namespace Board
 
         public PathNode Parent;
 
-        public PathNode(PathNode[,] grid, int x, int y)
+        public PathNode(PathNode[,] grid, int x, int y, int cost, bool passable)
         {
             _grid = grid;
             X = x;
             Y = y;
+            TraversalCost = cost;
+            Passable = passable;
         }
     }
 }

@@ -31,6 +31,8 @@ public class GameManager : MonoBehaviour
 
     public bool Paused { get; private set; }
 
+    private int goalDistance = int.MaxValue;
+
     //TODO have other multiplier affect gameplay
     // Setup Singleton in Awake
     private void Awake()
@@ -91,7 +93,6 @@ public class GameManager : MonoBehaviour
     {
         Score += ScoreMultiplier;
     }
-
     public void NewLevel()
     {
         var isFirstLevel = CurrentLevel == 0;
@@ -109,6 +110,7 @@ public class GameManager : MonoBehaviour
         BoardManager.Init();
         SetCameraSize();
         Player.Spawn(new Vector2Int(1, 1), BoardManager);
+        goalDistance = BoardManager.GetGoalDistance();
         OnLevelComplete?.Invoke();
     }
 
