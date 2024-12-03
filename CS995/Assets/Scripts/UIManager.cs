@@ -1,6 +1,4 @@
-﻿using System;
-using System.Globalization;
-using Board;
+﻿using Board;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;

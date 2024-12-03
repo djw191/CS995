@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using Random = UnityEngine.Random;
@@ -176,6 +177,13 @@ namespace Board
             }
             _objectsToAct.Add(actionData);
         }
+        
+        //A Star that returns just next target cell
+        public Vector2Int FindPath(Vector2Int start, Vector2Int goal)
+        {
+            AStarPathfinder astarPathFinder = new AStarPathfinder(_boardData);
+            return astarPathFinder.GetNextCell(start, goal);
+        }
 
         public void FinishAttacking() => _allowedToMove = true;
 
@@ -284,17 +292,6 @@ namespace Board
             GameManager.Instance.OnLevelComplete -= ClearMovement;
         }
 
-        private class CellData
-        {
-            public readonly bool Passable;
-            public CellObject ContainedObject;
-
-            public CellData(bool passable)
-            {
-                Passable = passable;
-            }
-        }
-
         public class ActionData
         {
             public readonly Animator Animator;
@@ -319,6 +316,16 @@ namespace Board
                 Move,
                 Attack
             }
+        }
+    }
+    public class CellData
+    {
+        public readonly bool Passable;
+        public CellObject ContainedObject;
+
+        public CellData(bool passable)
+        {
+            Passable = passable;
         }
     }
 }
