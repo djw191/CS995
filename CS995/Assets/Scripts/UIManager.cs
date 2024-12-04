@@ -82,6 +82,7 @@ public class UIManager : MonoBehaviour
 
         _conditionResumeButton = _conditionPanel.Q<Button>("ResumeButton");
         _conditionResumeButton.clicked += ToggleConditionPanel;
+        _conditionResumeButton.Focus();
 
         _conditionsElement = _conditionPanel.Q<VisualElement>("ConditionsElement");
 
@@ -133,7 +134,7 @@ public class UIManager : MonoBehaviour
 
         #endregion
 
-
+        
         _gameManager.OnLevelComplete += SetOkayToPause;
     }
 
@@ -228,6 +229,7 @@ public class UIManager : MonoBehaviour
         _pausePanel.style.visibility = _pausePanel.style.visibility.Equals(Visibility.Visible)
             ? Visibility.Hidden
             : Visibility.Visible;
+        StartCoroutine(FocusElement(_resumeButton));
         _gameManager.TogglePause();
     }
 
@@ -240,6 +242,7 @@ public class UIManager : MonoBehaviour
         _gameOverMessage.text =
             $"Game Over\n\nYou scored: {_gameManager.Score:n2}\n\nPrevious high Score: {previousHighScore}";
         if (_gameManager.Score > previousHighScore) PlayerPrefs.SetFloat("HighScore", _gameManager.Score);
+        StartCoroutine(FocusElement(_restartButton));
     }
 
     public void ToggleConditionPanel()
@@ -251,7 +254,10 @@ public class UIManager : MonoBehaviour
         _conditionPanel.style.visibility = currentlyVisible ? Visibility.Hidden : Visibility.Visible;
         _gameManager.TogglePause();
         //If condition panel being toggled and going invisible (resume button), start new level, only case this should be true
-        if (currentlyVisible) _gameManager.NewLevel();
+        StartCoroutine(FocusElement(_conditionResumeButton));
+        if (!currentlyVisible) return;
+
+        _gameManager.NewLevel();
     }
 
     public void UpdateFoodLabel(int newValue)
