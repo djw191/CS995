@@ -1,6 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using UnityEngine;
+using Debug = UnityEngine.Debug;
 
 namespace Board
 {
@@ -51,8 +54,8 @@ namespace Board
             _closedList = new List<PathNode>();
 
             startNode.GCost = 0;
-            startNode.HCost = 0; //TODO
-            //startNode.HCost = EuclideanDistance(startNode, endNode);
+            //startNode.HCost = 0; //TODO
+            startNode.HCost = ManhattanDistance(startNode, endNode);
 
             while (_openList.Count > 0)
             {
@@ -83,8 +86,8 @@ namespace Board
                     
                     neighbor.Parent = currentNode;
                     neighbor.GCost = possibleGCost;
-                    //neighbor.HCost = EuclideanDistance(neighbor, endNode);
-                    neighbor.HCost = 0; //TODO
+                    neighbor.HCost = ManhattanDistance(neighbor, endNode);
+                    //neighbor.HCost = 0; //TODO
                     if(!_openList.Contains(neighbor)) _openList.Add(neighbor);
                 }
             }
@@ -171,7 +174,7 @@ namespace Board
             set
             {
                 _hCost = value;
-                FCost = value + HCost;
+                FCost = value + GCost;
             }
         }
         public int FCost;
