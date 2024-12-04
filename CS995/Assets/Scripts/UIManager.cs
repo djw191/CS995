@@ -1,5 +1,7 @@
-﻿using Board;
+﻿using System.Collections;
+using Board;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
@@ -202,14 +204,20 @@ public class UIManager : MonoBehaviour
     {
         _messageLabel.text = message;
         ToggleMessageBoxPanel();
-        _messageBoxResumeButton.Focus();
+        StartCoroutine(FocusElement(_messageBoxResumeButton));
     }
+    private IEnumerator FocusElement(VisualElement element)
+    {
+        yield return null;
+        element.Focus();
+    }
+
 
     private void ToggleMessageBoxPanel()
     {
         _messageBoxPanel.style.visibility = _messageBoxPanel.style.visibility.Equals(Visibility.Visible)
             ? Visibility.Hidden
-            : Visibility.Visible;
+            : Visibility.Visible;   
         _gameManager.TogglePause();
     }
 

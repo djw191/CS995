@@ -29,6 +29,6 @@
     </engine:VisualElement>
     <engine:VisualElement name="MessageBoxPanel" enabled="true" style="flex-grow: 1; -unity-background-image-tint-color: rgba(255, 255, 255, 0); background-color: rgba(63, 63, 63, 0.87); visibility: visible; justify-content: space-evenly; align-content: center; align-items: stretch; display: flex; top: 25%; position: absolute; left: 25%; right: auto; bottom: auto; width: 50%; height: 50%; align-self: auto;">
         <engine:Label text="CONDITIONS" name="MessageLabel" style="-unity-font-definition: url(&quot;project://database/Assets/PlaceHolderAssets/Fonts/PressStart2P-Regular.ttf?fileID=12800000&amp;guid=b284a6525342f44599e9ce79e37c2d61&amp;type=3#PressStart2P-Regular&quot;); color: rgb(255, 255, 255); -unity-text-align: middle-center; font-size: 18px; top: auto; align-items: center; align-self: center; align-content: auto; white-space: normal;" />
-        <engine:Button text="OK" name="ResumeButton" selectable="true" enabled="true" class="pause-button" />
+        <engine:Button text="OK" name="ResumeButton" selectable="true" enabled="true" focusable="true" class="pause-button" />
     </engine:VisualElement>
 </engine:UXML>
