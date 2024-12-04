@@ -55,17 +55,12 @@ namespace Board
             }
 
             CurrentMovementPoints--;
-
-            // var xDiff = _player.Position.x - Position.x;
-            // var yDiff = _player.Position.y - Position.y;
-            //
-            // _spriteRenderer.flipX = xDiff > 0;
             
             Vector2Int nextCell = _boardManager.GetNextCell(Position, _player.Position);
             
             var diff = new Vector2Int(nextCell.x - Position.x, nextCell.y - Position.y);
             
-            _spriteRenderer.flipX = diff.x < 0;
+            _spriteRenderer.flipX = diff.x > 0;
 
             if (_player.Position == nextCell)
             {
@@ -84,24 +79,6 @@ namespace Board
                         : new Vector2Int(Position.x, Position.y + (diff.y > 0 ? 1 : -1)),
                     this, _animator, false, BoardManager.ActionData.ActionType.Move));
             }
-            
-            // if ((Mathf.Abs(xDiff) <= 1 && Mathf.Abs(yDiff) == 0) || (Mathf.Abs(yDiff) <= 1 && Mathf.Abs(xDiff) == 0)) //If in attack range
-            // {
-            //     GameManager.Instance.AttackPlayer(damage);
-            //     GameManager.Instance.BoardManager.RequestMove(new BoardManager.ActionData(Position,
-            //         Mathf.Abs(xDiff) > Mathf.Abs(yDiff)
-            //             ? new Vector2Int(Position.x + (xDiff > 0 ? 1 : -1), Position.y)
-            //             : new Vector2Int(Position.x, Position.y + (yDiff > 0 ? 1 : -1)),
-            //         this, _animator, false, BoardManager.ActionData.ActionType.Attack));
-            // }
-            // else
-            // {
-            //     GameManager.Instance.BoardManager.RequestMove(new BoardManager.ActionData(Position,
-            //         Mathf.Abs(xDiff) > Mathf.Abs(yDiff)
-            //             ? new Vector2Int(Position.x + (xDiff > 0 ? 1 : -1), Position.y)
-            //             : new Vector2Int(Position.x, Position.y + (yDiff > 0 ? 1 : -1)),
-            //         this, _animator, false, BoardManager.ActionData.ActionType.Move));
-            // }
         }
 
         public override bool AttemptEnter(int attackPower)

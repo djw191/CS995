@@ -20,6 +20,7 @@ namespace Board
         public int GetTotalCost(Vector2Int start, Vector2Int end)
         {
             var path = FindPath(start, end);
+            
             int totalCost = path.Count - 1;
             foreach (var pathNode in path)
             {
@@ -50,8 +51,8 @@ namespace Board
             _closedList = new List<PathNode>();
 
             startNode.GCost = 0;
-            // startNode.HCost = ManhattanDistance(startNode, endNode);
-            startNode.HCost = 0;
+            startNode.HCost = 0; //TODO
+            //startNode.HCost = EuclideanDistance(startNode, endNode);
 
             while (_openList.Count > 0)
             {
@@ -82,8 +83,8 @@ namespace Board
                     
                     neighbor.Parent = currentNode;
                     neighbor.GCost = possibleGCost;
-                    // neighbor.HCost = ManhattanDistance(neighbor, endNode);
-                    neighbor.HCost = 0;
+                    //neighbor.HCost = EuclideanDistance(neighbor, endNode);
+                    neighbor.HCost = 0; //TODO
                     if(!_openList.Contains(neighbor)) _openList.Add(neighbor);
                 }
             }
