@@ -20,12 +20,12 @@ namespace Board
             GameManager.Instance.BoardManager.SetCellTile(position, obstacleTile);
         }
 
-        public override bool AttemptEnter(int attackPower)
+        public override bool AttemptEnter(IMoveableObject moveableObject)
         {
             if (HitPoints <= 0) return true;
 
 
-            HitPoints -= attackPower;
+            HitPoints -= moveableObject.AttackPower;
             if (HitPoints <= 1)
                 GameManager.Instance.BoardManager.SetCellTile(Position, damagedObstacleTile);
 

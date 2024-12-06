@@ -102,8 +102,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <MovementPoints>k__BackingField: 1
-  damage: 2
   maxHitPoints: 3
+  <AttackPower>k__BackingField: 2
 --- !u!95 &2508139977312388453
 Animator:
   serializedVersion: 7

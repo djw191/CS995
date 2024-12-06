@@ -2,11 +2,10 @@
 
 namespace Board
 {
-    public class Enemy : CellObject
+    public class Enemy : CellObject, IMoveableObject
     {
         private static readonly int Attack = Animator.StringToHash("Attack");
         private static readonly int Damaged = Animator.StringToHash("Damaged");
-        [SerializeField] private int damage;
         [SerializeField] private int maxHitPoints;
         private Animator _animator;
 
@@ -41,6 +40,8 @@ namespace Board
             GameManager.Instance.TurnManager.OnTick += Turn;
         }
 
+        [field: SerializeField] public int AttackPower { get; set; }
+
         public override void Move()
         {
             Turn();
@@ -56,7 +57,7 @@ namespace Board
 
             CurrentMovementPoints--;
             
-            Vector2Int nextCell = _boardManager.GetNextCell(Position, _player.Position);
+            Vector2Int nextCell = _boardManager.GetNextCell(Position, _player.Position, AttackPower);
             
             var diff = new Vector2Int(nextCell.x - Position.x, nextCell.y - Position.y);
             
@@ -64,7 +65,7 @@ namespace Board
 
             if (_player.Position == nextCell)
             {
-                GameManager.Instance.AttackPlayer(damage);
+                GameManager.Instance.AttackPlayer(AttackPower);
                 GameManager.Instance.BoardManager.RequestMove(new BoardManager.ActionData(Position,
                     Mathf.Abs(diff.x) > Mathf.Abs(diff.y)
                         ? new Vector2Int(Position.x + (diff.x > 0 ? 1 : -1), Position.y)
@@ -81,7 +82,7 @@ namespace Board
             }
         }
 
-        public override bool AttemptEnter(int attackPower)
+        public override bool AttemptEnter(IMoveableObject moveableObject)
         {
             if (_hitPoints <= 0)
             {
@@ -89,7 +90,7 @@ namespace Board
                 return true;
             }
 
-            _hitPoints -= attackPower;
+            _hitPoints -= moveableObject.AttackPower;
             _animator.SetTrigger(Damaged);
             return false;
         }

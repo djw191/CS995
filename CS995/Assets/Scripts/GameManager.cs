@@ -110,7 +110,7 @@ public class GameManager : MonoBehaviour
         BoardManager.Init();
         SetCameraSize();
         Player.Spawn(new Vector2Int(1, 1), BoardManager);
-        goalDistance = BoardManager.GetGoalDistance();
+        goalDistance = BoardManager.GetGoalDistance(Player.AttackPower);
         OnLevelComplete?.Invoke();
     }
 

@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Board
 {
-    public class CellObject : MonoBehaviour, IMoveableObject
+    public class CellObject : MonoBehaviour
     {
         public Vector2Int Position { get; set; }
         public GameObject GameObject => gameObject;
@@ -27,7 +27,7 @@ namespace Board
         {
         }
 
-        public virtual bool AttemptEnter(int attackPower)
+        public virtual bool AttemptEnter(IMoveableObject moveableObject)
         {
             return true;
         }

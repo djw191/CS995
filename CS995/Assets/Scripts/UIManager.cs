@@ -35,6 +35,7 @@ public class UIManager : MonoBehaviour
     private VisualElement _messageBoxPanel;
     private Label _messageLabel;
     private Button _messageBoxResumeButton;
+    private int? _playersInitAttackPower = null;
 
     private void Start()
     {
@@ -155,8 +156,10 @@ public class UIManager : MonoBehaviour
         mult *= _boardManager.initTargetFood / _boardManager.TargetFood;
         _boardManager.TargetWalls = _wallSlider.value;
         mult *= _boardManager.TargetWalls / _boardManager.initTargetWalls;
+        
+        _playersInitAttackPower ??= _gameManager.Player.AttackPower;
         _gameManager.Player.AttackPower = _attackSlider.value;
-        mult *= _gameManager.Player.initAttackPower / (float)_gameManager.Player.AttackPower;
+        mult *= (float)_playersInitAttackPower / _gameManager.Player.AttackPower;
 
         //These are always default 0, base mult on that
         _gameManager.WaypointTarget = _waypointSlider.value;

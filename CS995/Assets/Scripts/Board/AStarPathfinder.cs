@@ -13,11 +13,13 @@ namespace Board
         private List<PathNode> _openList;
         private List<PathNode> _closedList;
         private readonly CellData[,] _cells;
+        private int _attack;
 
-        public AStarPathfinder(CellData[,] grid)
+        public AStarPathfinder(CellData[,] grid, int attack)
         {
             _grid = new PathNode[grid.GetLength(0), grid.GetLength(1)];
             _cells = grid;
+            _attack = attack;
         }
 
         public int GetTotalCost(Vector2Int start, Vector2Int end)
@@ -27,7 +29,7 @@ namespace Board
             int totalCost = path.Count - 1;
             foreach (var pathNode in path)
             {
-                totalCost += pathNode.TraversalCost;
+                totalCost += (pathNode.TraversalCost / _attack);
             }
             return totalCost;
         }
@@ -54,7 +56,6 @@ namespace Board
             _closedList = new List<PathNode>();
 
             startNode.GCost = 0;
-            //startNode.HCost = 0; //TODO
             startNode.HCost = ManhattanDistance(startNode, endNode);
 
             while (_openList.Count > 0)
@@ -76,18 +77,17 @@ namespace Board
                         continue;
                     }
 
-                    if (neighbor.TraversalCost > 0)
-                    {
-                        ;
-                    }
-                    int possibleGCost = currentNode.GCost + 1 + neighbor.TraversalCost;
+                    // if (neighbor.TraversalCost > 0)
+                    // {
+                    //     ;
+                    // }
+                    int possibleGCost = currentNode.GCost + 1 + (neighbor.TraversalCost / _attack);
                     
                     if (possibleGCost >= neighbor.GCost) continue;
                     
                     neighbor.Parent = currentNode;
                     neighbor.GCost = possibleGCost;
                     neighbor.HCost = ManhattanDistance(neighbor, endNode);
-                    //neighbor.HCost = 0; //TODO
                     if(!_openList.Contains(neighbor)) _openList.Add(neighbor);
                 }
             }

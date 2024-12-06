@@ -10,9 +10,6 @@ namespace Board
         private static readonly int Attack = Animator.StringToHash("Attack");
         [SerializeField] private float moveSpeed;
 
-        public int initAttackPower = 1;
-        public int AttackPower { get; set; }
-
         [field: SerializeField]
         [DefaultValue(1)]
         public int DefensePower { get; set; }
@@ -25,7 +22,6 @@ namespace Board
 
         private void Awake()
         {
-            AttackPower = initAttackPower;
             _spriteRenderer = GetComponent<SpriteRenderer>();
             _move = InputSystem.actions.FindAction("Move");
             _animator = GetComponent<Animator>();
@@ -63,6 +59,7 @@ namespace Board
         public int CurrentMovementPoints { get; private set; }
 
         public GameObject GameObject => gameObject;
+        [field: SerializeField] public int AttackPower { get; set; }
         public Vector2Int Position { get; set; }
 
         public void Move()

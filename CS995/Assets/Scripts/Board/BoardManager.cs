@@ -163,10 +163,9 @@ namespace Board
                     // Check for null, passable, and if it is already in the acting objects
                     if (cell is null || !cell.Passable || _objectsToAct.Any(item =>
                             item.MoveableObject.GameObject == actionData.MoveableObject.GameObject)) return;
-                
-                    var pc = actionData.MoveableObject as PlayerController;
+                    
                     if (GetCell(actionData.To).ContainedObject != null &&
-                        !GetCell(actionData.To).ContainedObject.AttemptEnter(pc ? pc.AttackPower : 1))
+                        !GetCell(actionData.To).ContainedObject.AttemptEnter(actionData.MoveableObject))
                         actionData.ActionType_ = ActionData.ActionType.Attack;
                     break;
                 }
@@ -179,22 +178,22 @@ namespace Board
         }
         
         //A Star that returns just next target cell
-        public Vector2Int GetNextCell(Vector2Int start, Vector2Int goal)
+        public Vector2Int GetNextCell(Vector2Int start, Vector2Int goal, int attack)
         {
-            AStarPathfinder astarPathFinder = new AStarPathfinder(_boardData);
+            AStarPathfinder astarPathFinder = new AStarPathfinder(_boardData, attack);
             return astarPathFinder.GetNextCell(start, goal);
         }
 
-        public int GetTraversalCost(Vector2Int start, Vector2Int goal)
+        public int GetTraversalCost(Vector2Int start, Vector2Int goal, int attack)
         {
-            AStarPathfinder astarPathFinder = new AStarPathfinder(_boardData);
+            AStarPathfinder astarPathFinder = new AStarPathfinder(_boardData, attack);
             return astarPathFinder.GetTotalCost(start, goal);
         }
 
-        public int GetGoalDistance()
+        public int GetGoalDistance(int attack)
         {
             return GetTraversalCost(GameManager.Instance.Player.Position,
-                new Vector2Int(boardSize.x - 2, boardSize.y - 2));
+                new Vector2Int(boardSize.x - 2, boardSize.y - 2), attack);
         }
 
         public void FinishAttacking() => _allowedToMove = true;

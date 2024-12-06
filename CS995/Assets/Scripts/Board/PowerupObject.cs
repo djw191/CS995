@@ -11,10 +11,10 @@ namespace Board
 
         public override void Entered(bool isPlayer, IMoveableObject moveableObject)
         {
+            moveableObject.AttackPower += strength;
             if (isPlayer && moveableObject is PlayerController pc)
             {
                 pc.MovementPoints += movement;
-                pc.AttackPower += strength;
                 pc.DefensePower += defense;
             }
 
