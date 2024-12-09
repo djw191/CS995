@@ -16,7 +16,7 @@ namespace Board
         public override void Entered(bool isPlayer, IMoveableObject moveableObject)
         {
             base.Entered(false, moveableObject);
-            GameManager.Instance.UIManager.ToggleConditionPanel();
+            GameManager.Instance.NewLevel();
         }
     }
 }

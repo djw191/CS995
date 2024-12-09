@@ -13,6 +13,7 @@ namespace Board
         private PlayerController _player;
         private SpriteRenderer _spriteRenderer; // ReSharper disable Unity.PerformanceAnalysis
         private BoardManager _boardManager;
+        public int ActionsTakenThisLevel { get; private set; }
 
         public void AlertObservers(string message)
         {
@@ -29,6 +30,7 @@ namespace Board
             _animator = GetComponent<Animator>();
             _spriteRenderer = GetComponent<SpriteRenderer>();
             _boardManager = GameManager.Instance.BoardManager;
+            ActionsTakenThisLevel = 0;
         }
 
         public override void Init(Vector2Int cell)
@@ -63,10 +65,11 @@ namespace Board
             
             _spriteRenderer.flipX = diff.x > 0;
 
+            bool moveApproved = false;
             if (_player.Position == nextCell)
             {
                 GameManager.Instance.AttackPlayer(AttackPower);
-                GameManager.Instance.BoardManager.RequestMove(new BoardManager.ActionData(Position,
+                moveApproved = GameManager.Instance.BoardManager.RequestMove(new BoardManager.ActionData(Position,
                     Mathf.Abs(diff.x) > Mathf.Abs(diff.y)
                         ? new Vector2Int(Position.x + (diff.x > 0 ? 1 : -1), Position.y)
                         : new Vector2Int(Position.x, Position.y + (diff.y > 0 ? 1 : -1)),
@@ -74,12 +77,14 @@ namespace Board
             }
             else
             {
-                GameManager.Instance.BoardManager.RequestMove(new BoardManager.ActionData(Position,
+                moveApproved = GameManager.Instance.BoardManager.RequestMove(new BoardManager.ActionData(Position,
                     Mathf.Abs(diff.x) > Mathf.Abs(diff.y)
                         ? new Vector2Int(Position.x + (diff.x > 0 ? 1 : -1), Position.y)
                         : new Vector2Int(Position.x, Position.y + (diff.y > 0 ? 1 : -1)),
                     this, _animator, false, BoardManager.ActionData.ActionType.Move));
             }
+
+            if (moveApproved) ActionsTakenThisLevel++;
         }
 
         public override bool AttemptEnter(IMoveableObject moveableObject)

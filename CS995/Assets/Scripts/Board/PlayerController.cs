@@ -18,23 +18,26 @@ namespace Board
         private bool _canMove;
         private InputAction _move;
         private SpriteRenderer _spriteRenderer;
-        public bool IsGameOver { get; private set; }
+        private GameManager _gameManager;
+        public int ActionsTakenThisLevel { get; private set; }
 
         private void Awake()
         {
             _spriteRenderer = GetComponent<SpriteRenderer>();
             _move = InputSystem.actions.FindAction("Move");
             _animator = GetComponent<Animator>();
+            _gameManager = GameManager.Instance;
             CurrentMovementPoints = MovementPoints;
             _canMove = true;
 
             InputSystem.actions.FindAction("Pause").performed += HandlePauseInput;
             GameManager.Instance.BoardManager.OnMovementEnded += SetCanMoveTrue;
+            ActionsTakenThisLevel = 0;
         }
 
         private void Update()
         {
-            if (!_move.WasPressedThisFrame() || GameManager.Instance.Paused || !_canMove || IsGameOver) return;
+            if (!_move.WasPressedThisFrame() || GameManager.Instance.Paused || !_canMove || _gameManager.IsGameOver) return;
 
             CurrentMovementPoints--;
             _canMove = false;
@@ -42,8 +45,9 @@ namespace Board
             //Get Direction and flip sprite
             var direction = GetDirectionAndSetFlip();
 
-            GameManager.Instance.BoardManager.RequestMove(new BoardManager.ActionData(Position, Position + direction, this,
-                _animator, true, BoardManager.ActionData.ActionType.Move));
+            if (GameManager.Instance.BoardManager.RequestMove(new BoardManager.ActionData(Position, Position + direction, this,
+                _animator, true, BoardManager.ActionData.ActionType.Move)))
+                ActionsTakenThisLevel++;
         }
 
         private void OnDestroy()
@@ -114,11 +118,6 @@ namespace Board
         {
             Position = cellPosition;
             transform.position = GameManager.Instance.BoardManager.CellToWorld(cellPosition);
-        }
-
-        public void GameOver()
-        {
-            IsGameOver = true;
         }
     }
 }

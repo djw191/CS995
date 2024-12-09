@@ -14,7 +14,6 @@ public class GameManager : MonoBehaviour
     [DefaultValue(100)]
     public int FoodAmount { get; private set; }
 
-    public float ScoreMultiplier = 1.0f;
     public float FoodMultiplier = 1.0f;
     public float BonusMultiplier = 1.0f;
     public float WallMultiplier = 1.0f;
@@ -30,6 +29,7 @@ public class GameManager : MonoBehaviour
     public float Score { get; private set; }
 
     public bool Paused { get; private set; }
+    public bool IsGameOver { get; private set; }
 
     private int goalDistance = int.MaxValue;
 
@@ -88,10 +88,10 @@ public class GameManager : MonoBehaviour
         Time.timeScale = Time.timeScale == 0 ? 1 : 0;
         Paused = !Paused;
     }
-
-    public void TallyScore()
+    // Score is ideal path / actions taken per level, approaching 0 the more moves you take
+    private void TallyScore()
     {
-        Score += ScoreMultiplier;
+        Score += goalDistance / (float)Player.ActionsTakenThisLevel;
     }
     public void NewLevel()
     {
@@ -100,6 +100,7 @@ public class GameManager : MonoBehaviour
 
         if (!isFirstLevel)
         {
+            TallyScore();
             BoardManager.boardSize = new Vector2Int(BoardManager.boardSize.x + 1, BoardManager.boardSize.y + 1);
             BoardManager.TargetWalls += (1 - BoardManager.TargetWalls) / 25;
             BoardManager.TargetFood -= BoardManager.TargetFood / 25;
@@ -136,8 +137,9 @@ public class GameManager : MonoBehaviour
         UIManager.UpdateFoodLabel(FoodAmount);
 
         if (FoodAmount > 0) return;
-
-        Player.GameOver();
+        
+        TallyScore();
+        IsGameOver = true;
         UIManager.ToggleGameOverPanel();
     }
 }

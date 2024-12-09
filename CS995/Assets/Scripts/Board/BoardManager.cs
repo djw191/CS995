@@ -152,7 +152,7 @@ namespace Board
         }
 
         [SuppressMessage("ReSharper", "Unity.PerformanceCriticalCodeNullComparison")]
-        public void RequestMove(ActionData actionData)
+        public bool RequestMove(ActionData actionData)
         {
             switch (actionData.ActionType_)
             {
@@ -162,7 +162,7 @@ namespace Board
                 
                     // Check for null, passable, and if it is already in the acting objects
                     if (cell is null || !cell.Passable || _objectsToAct.Any(item =>
-                            item.MoveableObject.GameObject == actionData.MoveableObject.GameObject)) return;
+                            item.MoveableObject.GameObject == actionData.MoveableObject.GameObject)) return false;
                     
                     if (GetCell(actionData.To).ContainedObject != null &&
                         !GetCell(actionData.To).ContainedObject.AttemptEnter(actionData.MoveableObject))
@@ -175,6 +175,7 @@ namespace Board
                     throw new ArgumentOutOfRangeException();
             }
             _objectsToAct.Add(actionData);
+            return true;
         }
         
         //A Star that returns just next target cell

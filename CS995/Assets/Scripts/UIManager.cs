@@ -175,7 +175,6 @@ public class UIManager : MonoBehaviour
         mult *= 1 / _gameManager.BonusMultiplier;
 
         _multiplierTextField.value = mult.ToString("n2") + "X";
-        _gameManager.ScoreMultiplier = mult;
         if (float.IsPositiveInfinity(mult) || float.IsNegativeInfinity(mult) || mult.Equals(0f) || float.IsNaN(mult))
             _conditionResumeButton.SetEnabled(false);
         else
@@ -199,7 +198,7 @@ public class UIManager : MonoBehaviour
 
     private void RestartGame()
     {
-        if (!GameManager.Instance.Player.IsGameOver) return;
+        if (!_gameManager.IsGameOver) return;
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
@@ -240,7 +239,6 @@ public class UIManager : MonoBehaviour
     {
         _okayToPause = false;
         var previousHighScore = PlayerPrefs.GetFloat("HighScore", 0);
-        _gameManager.TallyScore();
         _gameOverPanel.style.visibility = Visibility.Visible;
         _gameOverMessage.text =
             $"Game Over\n\nYou scored: {_gameManager.Score:n2}\n\nPrevious high Score: {previousHighScore}";
@@ -250,7 +248,6 @@ public class UIManager : MonoBehaviour
 
     public void ToggleConditionPanel()
     {
-        _gameManager.TallyScore();
         _okayToPause = false;
 
         var currentlyVisible = _conditionPanel.style.visibility.Equals(Visibility.Visible);
