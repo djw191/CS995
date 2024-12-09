@@ -17,6 +17,7 @@ namespace Board
         [SerializeField] private Tile[] groundTiles;
         [SerializeField] private Tile[] wallTiles;
         [SerializeField] private ExitCellObject exitCellPrefab;
+        [SerializeField] private Tile outline;
 
         public Vector2Int boardSize = new(10, 10);
         [SerializeField] private Grid grid;
@@ -45,7 +46,8 @@ namespace Board
         private CellData[,] _boardData;
         private float _currentMovementSpeed;
 
-        public Tilemap Tilemap { get; private set; }
+        [field: SerializeField] public Tilemap Tilemap { get; private set; }
+        [SerializeField] Tilemap OutlineTilemap;
 
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         private void Awake()
@@ -53,8 +55,7 @@ namespace Board
             TargetFood = initTargetFood;
             TargetWalls = initTargetWalls;
             TargetPowerups = 0;
-            _currentMovementSpeed = movementSpeed;
-            Tilemap = GetComponentInChildren<Tilemap>();
+            _currentMovementSpeed = movementSpeed;  
             GameManager.Instance.OnLevelComplete += ClearMovement;
             if (PlayerPrefs.GetInt("IM", 0) == 1) _currentMovementSpeed = float.MaxValue;
         }
@@ -113,18 +114,23 @@ namespace Board
             _emptyTiles.Clear();
             _boardData = new CellData[boardSize.x, boardSize.y];
             for (var i = 0; i < boardSize.x; i++)
-            for (var j = 0; j < boardSize.y; j++)
-                if (i == 0 || j == 0 || i == boardSize.x - 1 || j == boardSize.y - 1)
+            {
+                for (var j = 0; j < boardSize.y; j++)
                 {
-                    Tilemap.SetTile(new Vector3Int(i, j, 0), wallTiles[Random.Range(0, wallTiles.Length)]);
-                    _boardData[i, j] = new CellData(false);
+                    if (i == 0 || j == 0 || i == boardSize.x - 1 || j == boardSize.y - 1)
+                    {
+                        Tilemap.SetTile(new Vector3Int(i, j, 0), wallTiles[Random.Range(0, wallTiles.Length)]);
+                        _boardData[i, j] = new CellData(false);
+                    }
+                    else
+                    {
+                        Tilemap.SetTile(new Vector3Int(i, j, 0), groundTiles[Random.Range(0, groundTiles.Length)]);
+                        _boardData[i, j] = new CellData(true);
+                        _emptyTiles.Add(new Vector2Int(i, j));
+                    }
+                    OutlineTilemap.SetTile(new Vector3Int(i, j, 0), outline);
                 }
-                else
-                {
-                    Tilemap.SetTile(new Vector3Int(i, j, 0), groundTiles[Random.Range(0, groundTiles.Length)]);
-                    _boardData[i, j] = new CellData(true);
-                    _emptyTiles.Add(new Vector2Int(i, j));
-                }
+            }
 
             _emptyTiles.Remove(new Vector2Int(1, 1));
 
