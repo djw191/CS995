@@ -100,4 +100,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd08e0e386224d119387629e4c3e2c8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  foodAmount: 4
+  <MovementPoints>k__BackingField: 0
+  <FoodAmount>k__BackingField: 4

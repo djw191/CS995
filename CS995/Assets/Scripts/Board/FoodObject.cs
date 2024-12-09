@@ -4,12 +4,12 @@ namespace Board
 {
     public class FoodObject : CellObject
     {
-        [SerializeField] private int foodAmount;
+        [field: SerializeField] public int FoodAmount {get; private set;}
 
         public override void Entered(bool isPlayer, IMoveableObject moveableObject)
         {
             if (isPlayer)
-                GameManager.Instance.ConsumeFoodPlayer(foodAmount);
+                GameManager.Instance.ConsumeFoodPlayer(FoodAmount);
             Destroy(gameObject);
         }
     }

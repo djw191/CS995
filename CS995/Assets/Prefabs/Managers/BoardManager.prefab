@@ -196,6 +196,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0e494457dd149114d87a9a9ccc7ce045, type: 2}
   exitCellPrefab: {fileID: 401255592207467164, guid: 3c74d078fd0280045bde61dc59997c4e, type: 3}
   outline: {fileID: 11400000, guid: ada545061d841a042b46024461483e88, type: 2}
+  <DebugTile>k__BackingField: {fileID: 11400000, guid: 15eb0f04a2625bf4aa44ce8a077217d3, type: 2}
   boardSize: {x: 17, y: 10}
   grid: {fileID: 4053948620802094694}
   foodPrefabs:
@@ -214,7 +215,7 @@ MonoBehaviour:
   targetEnemies: 1
   movementSpeed: 1.5
   <Tilemap>k__BackingField: {fileID: 1512759460177340067}
-  OutlineTilemap: {fileID: 4804472636194248528}
+  <OutlineTilemap>k__BackingField: {fileID: 4804472636194248528}
 --- !u!1 &5931818216278058455
 GameObject:
   m_ObjectHideFlags: 0

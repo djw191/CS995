@@ -18,6 +18,7 @@ namespace Board
         [SerializeField] private Tile[] wallTiles;
         [SerializeField] private ExitCellObject exitCellPrefab;
         [SerializeField] private Tile outline;
+        [field: SerializeField] public Tile DebugTile { get; private set; }
 
         public Vector2Int boardSize = new(10, 10);
         [SerializeField] private Grid grid;
@@ -47,7 +48,7 @@ namespace Board
         private float _currentMovementSpeed;
 
         [field: SerializeField] public Tilemap Tilemap { get; private set; }
-        [SerializeField] Tilemap OutlineTilemap;
+        [field: SerializeField] public Tilemap OutlineTilemap { get; private set; }
 
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         private void Awake()
@@ -194,7 +195,7 @@ namespace Board
         public int GetTraversalCost(Vector2Int start, Vector2Int goal, int attack)
         {
             AStarPathfinder astarPathFinder = new AStarPathfinder(_boardData, attack);
-            return astarPathFinder.GetTotalCost(start, goal);
+            return astarPathFinder.GetTotalCost(start, goal, -foodPrefabs.Min(f => f.FoodAmount));
         }
 
         public int GetGoalDistance(int attack)

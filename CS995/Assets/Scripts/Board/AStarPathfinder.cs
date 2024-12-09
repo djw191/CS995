@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 using Debug = UnityEngine.Debug;
 
 namespace Board
@@ -14,7 +15,9 @@ namespace Board
         private List<PathNode> _closedList;
         private readonly CellData[,] _cells;
         private int _attack;
-
+        
+        // TODO handle negative weights in food, pass in the lowest known weight and compensenate by automatically adding/subtracting
+        // DON'T Do this for bots, since, they don't need to eat and only seek the player
         public AStarPathfinder(CellData[,] grid, int attack)
         {
             _grid = new PathNode[grid.GetLength(0), grid.GetLength(1)];
@@ -22,14 +25,18 @@ namespace Board
             _attack = attack;
         }
 
-        public int GetTotalCost(Vector2Int start, Vector2Int end)
+        public int GetTotalCost(Vector2Int start, Vector2Int end, int lowestWeight)
         {
-            var path = FindPath(start, end);
+            var path = FindPath(start, end, lowestWeight);
             
             int totalCost = path.Count - 1;
             foreach (var pathNode in path)
             {
                 totalCost += (pathNode.TraversalCost / _attack);
+#if UNITY_EDITOR
+                BoardManager bm = GameManager.Instance.BoardManager;
+                bm.OutlineTilemap.SetTile(new Vector3Int(pathNode.X, pathNode.Y, 0), bm.DebugTile);
+#endif
             }
             return totalCost;
         }
@@ -38,7 +45,8 @@ namespace Board
             var path = FindPath(start, end);
             return new Vector2Int( path[1].X, path[1].Y);
         }
-        public List<PathNode> FindPath(Vector2Int start, Vector2Int end)
+
+        private List<PathNode> FindPath(Vector2Int start, Vector2Int end)
         {
             for (int i = 0; i < _grid.GetLength(0); i++)
             {
@@ -77,10 +85,67 @@ namespace Board
                         continue;
                     }
 
-                    // if (neighbor.TraversalCost > 0)
-                    // {
-                    //     ;
-                    // }
+                    int possibleGCost = currentNode.GCost + 1 + (neighbor.TraversalCost / _attack);
+                    
+                    if (possibleGCost >= neighbor.GCost) continue;
+                    
+                    neighbor.Parent = currentNode;
+                    neighbor.GCost = possibleGCost;
+                    neighbor.HCost = ManhattanDistance(neighbor, endNode);
+                    if(!_openList.Contains(neighbor)) _openList.Add(neighbor);
+                }
+            }
+
+            return null;
+        }
+        private List<PathNode> FindPath(Vector2Int start, Vector2Int end, int lowestWeight)
+        {
+            //Use lowest weight to find shortest path
+            for (int i = 0; i < _grid.GetLength(0); i++)
+            {
+                for (int j = 0; j < _grid.GetLength(1); j++)
+                {
+                    int edgeWeight = -lowestWeight;
+                    if (_cells[i, j].ContainedObject is WallObject w)
+                    {
+                        edgeWeight += w.HitPoints;
+                    } else if (_cells[i, j].ContainedObject is FoodObject f)
+                    {
+                        edgeWeight -= f.FoodAmount;
+                    }
+                    PathNode pathNode = _grid[i, j] = new PathNode(_grid,i, j, edgeWeight, _cells[i, j].Passable);
+                    pathNode.GCost = int.MaxValue;
+                    pathNode.Parent = null;
+                }
+            }
+            
+            PathNode startNode = _grid[start.x, start.y];
+            PathNode endNode = _grid[end.x, end.y];
+            _openList = new List<PathNode> { startNode };
+            _closedList = new List<PathNode>();
+
+            startNode.GCost = 0;
+            startNode.HCost = ManhattanDistance(startNode, endNode);
+
+            while (_openList.Count > 0)
+            {
+                PathNode currentNode = GetLowestFCostPathNode(_openList);
+                if (currentNode == endNode)
+                {
+                    return CalculatePath(endNode);
+                }
+                _openList.Remove(currentNode);
+                _closedList.Add(currentNode);
+
+                foreach (var neighbor in GetNeighborList(currentNode))
+                {
+                    if(_closedList.Contains(neighbor)) continue;
+                    if (!neighbor.Passable)
+                    {
+                        _closedList.Add(neighbor);
+                        continue;
+                    }
+
                     int possibleGCost = currentNode.GCost + 1 + (neighbor.TraversalCost / _attack);
                     
                     if (possibleGCost >= neighbor.GCost) continue;
