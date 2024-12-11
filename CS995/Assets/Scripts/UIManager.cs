@@ -209,7 +209,7 @@ public class UIManager : MonoBehaviour
         ToggleMessageBoxPanel();
         StartCoroutine(FocusElement(_messageBoxResumeButton));
     }
-    private IEnumerator FocusElement(VisualElement element)
+    public static IEnumerator FocusElement(VisualElement element)
     {
         yield return null;
         element.Focus();
