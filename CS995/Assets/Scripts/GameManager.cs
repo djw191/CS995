@@ -88,11 +88,13 @@ public class GameManager : MonoBehaviour
         Time.timeScale = Time.timeScale == 0 ? 1 : 0;
         Paused = !Paused;
     }
+
     // Score is ideal path / actions taken per level, approaching 0 the more moves you take
     private void TallyScore()
     {
         Score += goalDistance / (float)Player.ActionsTakenThisLevel;
     }
+
     public void NewLevel()
     {
         var isFirstLevel = CurrentLevel == 0;
@@ -137,7 +139,7 @@ public class GameManager : MonoBehaviour
         UIManager.UpdateFoodLabel(FoodAmount);
 
         if (FoodAmount > 0) return;
-        
+
         TallyScore();
         IsGameOver = true;
         UIManager.ToggleGameOverPanel();

@@ -61,7 +61,7 @@ public class UIManager : MonoBehaviour
         _toggleImButton = _pausePanel.Q<Button>("ToggleIMButton");
         _toggleImButton.clicked += _boardManager.ToggleMovementSpeed;
         _boardManager.ToggleMovementSpeed();
-        
+
         _mainMenuButton = _pausePanel.Q<Button>("MainMenuButton");
         _mainMenuButton.clicked += OnMainMenuClicked;
 
@@ -139,7 +139,7 @@ public class UIManager : MonoBehaviour
 
         #endregion
 
-        
+
         _gameManager.OnLevelComplete += SetOkayToPause;
     }
 
@@ -166,7 +166,7 @@ public class UIManager : MonoBehaviour
         mult *= _boardManager.initTargetFood / _boardManager.TargetFood;
         _boardManager.TargetWalls = _wallSlider.value;
         mult *= _boardManager.TargetWalls / _boardManager.initTargetWalls;
-        
+
         _playersInitAttackPower ??= _gameManager.Player.AttackPower;
         _gameManager.Player.AttackPower = _attackSlider.value;
         mult *= (float)_playersInitAttackPower / _gameManager.Player.AttackPower;
@@ -219,6 +219,7 @@ public class UIManager : MonoBehaviour
         ToggleMessageBoxPanel();
         StartCoroutine(FocusElement(_messageBoxResumeButton));
     }
+
     public static IEnumerator FocusElement(VisualElement element)
     {
         yield return null;
@@ -230,7 +231,7 @@ public class UIManager : MonoBehaviour
     {
         _messageBoxPanel.style.visibility = _messageBoxPanel.style.visibility.Equals(Visibility.Visible)
             ? Visibility.Hidden
-            : Visibility.Visible;   
+            : Visibility.Visible;
         _gameManager.TogglePause();
     }
 

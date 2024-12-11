@@ -58,15 +58,15 @@ namespace Board
             }
 
             CurrentMovementPoints--;
-            
-            Vector2Int nextCell = _boardManager.GetNextCell(Position, _player.Position, AttackPower);
+
+            var nextCell = _boardManager.GetNextCell(Position, _player.Position, AttackPower);
             //TODO with multiple enemies, they can both pathfind into the same square, must do this sequentially
-            
+
             var diff = new Vector2Int(nextCell.x - Position.x, nextCell.y - Position.y);
-            
+
             _spriteRenderer.flipX = diff.x > 0;
 
-            bool moveApproved = false;
+            var moveApproved = false;
             if (_player.Position == nextCell)
             {
                 GameManager.Instance.AttackPlayer(AttackPower);

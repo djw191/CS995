@@ -23,10 +23,10 @@ public class MainMenuUIManager : MonoBehaviour
         _backButton = _uiDocument.rootVisualElement.Q<Button>("BackButton");
         _menu = _uiDocument.rootVisualElement.Q<VisualElement>("Menu");
         _credits = _uiDocument.rootVisualElement.Q<VisualElement>("Credits");
-        
+
         _startButton.clicked += StartButtonOnclicked;
         _quitButton.clicked += Application.Quit;
-        
+
         _creditsButton.clicked += CreditsButtonOnclicked;
         _backButton.clicked += BackButtonOnClicked;
         BackButtonOnClicked();
@@ -56,6 +56,4 @@ public class MainMenuUIManager : MonoBehaviour
         _credits.style.visibility = Visibility.Visible;
         StartCoroutine(UIManager.FocusElement(_backButton));
     }
-    
-    
 }

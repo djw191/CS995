@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using Random = UnityEngine.Random;
@@ -56,7 +55,7 @@ namespace Board
             TargetFood = initTargetFood;
             TargetWalls = initTargetWalls;
             TargetPowerups = 0;
-            _currentMovementSpeed = movementSpeed;  
+            _currentMovementSpeed = movementSpeed;
             GameManager.Instance.OnLevelComplete += ClearMovement;
             if (PlayerPrefs.GetInt("IM", 0) == 1) _currentMovementSpeed = float.MaxValue;
         }
@@ -119,22 +118,21 @@ namespace Board
             _emptyTiles.Clear();
             _boardData = new CellData[boardSize.x, boardSize.y];
             for (var i = 0; i < boardSize.x; i++)
+            for (var j = 0; j < boardSize.y; j++)
             {
-                for (var j = 0; j < boardSize.y; j++)
+                if (i == 0 || j == 0 || i == boardSize.x - 1 || j == boardSize.y - 1)
                 {
-                    if (i == 0 || j == 0 || i == boardSize.x - 1 || j == boardSize.y - 1)
-                    {
-                        Tilemap.SetTile(new Vector3Int(i, j, 0), wallTiles[Random.Range(0, wallTiles.Length)]);
-                        _boardData[i, j] = new CellData(false);
-                    }
-                    else
-                    {
-                        Tilemap.SetTile(new Vector3Int(i, j, 0), groundTiles[Random.Range(0, groundTiles.Length)]);
-                        _boardData[i, j] = new CellData(true);
-                        _emptyTiles.Add(new Vector2Int(i, j));
-                    }
-                    OutlineTilemap.SetTile(new Vector3Int(i, j, 0), outline);
+                    Tilemap.SetTile(new Vector3Int(i, j, 0), wallTiles[Random.Range(0, wallTiles.Length)]);
+                    _boardData[i, j] = new CellData(false);
                 }
+                else
+                {
+                    Tilemap.SetTile(new Vector3Int(i, j, 0), groundTiles[Random.Range(0, groundTiles.Length)]);
+                    _boardData[i, j] = new CellData(true);
+                    _emptyTiles.Add(new Vector2Int(i, j));
+                }
+
+                OutlineTilemap.SetTile(new Vector3Int(i, j, 0), outline);
             }
 
             _emptyTiles.Remove(new Vector2Int(1, 1));
@@ -170,11 +168,11 @@ namespace Board
                 case ActionData.ActionType.Move:
                 {
                     var cell = GetCell(actionData.To);
-                
+
                     // Check for null, passable, and if it is already in the acting objects
                     if (cell is null || !cell.Passable || _objectsToAct.Any(item =>
                             item.MoveableObject.GameObject == actionData.MoveableObject.GameObject)) return false;
-                    
+
                     if (GetCell(actionData.To).ContainedObject != null &&
                         !GetCell(actionData.To).ContainedObject.AttemptEnter(actionData.MoveableObject))
                         actionData.ActionType_ = ActionData.ActionType.Attack;
@@ -185,20 +183,21 @@ namespace Board
                 default:
                     throw new ArgumentOutOfRangeException();
             }
+
             _objectsToAct.Add(actionData);
             return true;
         }
-        
+
         //A Star that returns just next target cell
         public Vector2Int GetNextCell(Vector2Int start, Vector2Int goal, int attack)
         {
-            AStarPathfinder astarPathFinder = new AStarPathfinder(_boardData, attack);
+            var astarPathFinder = new AStarPathfinder(_boardData, attack);
             return astarPathFinder.GetNextCell(start, goal);
         }
 
         public int GetTraversalCost(Vector2Int start, Vector2Int goal, int attack)
         {
-            AStarPathfinder astarPathFinder = new AStarPathfinder(_boardData, attack);
+            var astarPathFinder = new AStarPathfinder(_boardData, attack);
             return astarPathFinder.GetTotalCost(start, goal, -foodPrefabs.Min(f => f.FoodAmount));
         }
 
@@ -208,7 +207,10 @@ namespace Board
                 new Vector2Int(boardSize.x - 2, boardSize.y - 2), attack);
         }
 
-        public void FinishAttacking() => _allowedToMove = true;
+        public void FinishAttacking()
+        {
+            _allowedToMove = true;
+        }
 
         public void Clean()
         {
@@ -279,7 +281,8 @@ namespace Board
                 var wall = Instantiate(wallPrefabs[Random.Range(0, wallPrefabs.Length)]);
                 AddObject(wall, position);
             }
-        } 
+        }
+
         private void AddObject(CellObject cellObject, Vector2Int position)
         {
             var cell = _boardData[position.x, position.y];
@@ -334,6 +337,7 @@ namespace Board
                 IsPlayer = isPlayer;
                 ActionType_ = actionType;
             }
+
             public enum ActionType
             {
                 Move,
@@ -341,6 +345,7 @@ namespace Board
             }
         }
     }
+
     public class CellData
     {
         public readonly bool Passable;
