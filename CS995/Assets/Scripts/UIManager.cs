@@ -36,6 +36,7 @@ public class UIManager : MonoBehaviour
     private Label _messageLabel;
     private Button _messageBoxResumeButton;
     private int? _playersInitAttackPower = null;
+    private Button _mainMenuButton;
 
     private void Start()
     {
@@ -60,6 +61,9 @@ public class UIManager : MonoBehaviour
         _toggleImButton = _pausePanel.Q<Button>("ToggleIMButton");
         _toggleImButton.clicked += _boardManager.ToggleMovementSpeed;
         _boardManager.ToggleMovementSpeed();
+        
+        _mainMenuButton = _pausePanel.Q<Button>("MainMenuButton");
+        _mainMenuButton.clicked += OnMainMenuClicked;
 
         #endregion
 
@@ -139,6 +143,12 @@ public class UIManager : MonoBehaviour
         _gameManager.OnLevelComplete += SetOkayToPause;
     }
 
+    private void OnMainMenuClicked()
+    {
+        TogglePauseMenu();
+        SceneManager.LoadScene("MainMenu");
+    }
+
     private void OnSliderChanged(ChangeEvent<float> _)
     {
         UpdateValues();
@@ -209,7 +219,7 @@ public class UIManager : MonoBehaviour
         ToggleMessageBoxPanel();
         StartCoroutine(FocusElement(_messageBoxResumeButton));
     }
-    private IEnumerator FocusElement(VisualElement element)
+    public static IEnumerator FocusElement(VisualElement element)
     {
         yield return null;
         element.Focus();
