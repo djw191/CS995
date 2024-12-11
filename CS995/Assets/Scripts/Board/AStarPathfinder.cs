@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using UnityEngine;
 
 namespace Board
@@ -52,7 +53,7 @@ namespace Board
             for (var j = 0; j < _grid.GetLength(1); j++)
             {
                 var passable = _cells[i, j].Passable;
-                if (_cells[i, j].ContainedObject is INotPathable) passable = false;
+                if (GameManager.DoesObjectHaveAttribute<NotPathable>(_cells[i, j].ContainedObject)) passable = false;
                 var pathNode = _grid[i, j] = new PathNode(i, j,
                     _cells[i, j].ContainedObject is WallObject w ? w.HitPoints : 0, passable);
                 pathNode.GCost = int.MaxValue;

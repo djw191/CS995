@@ -1,7 +1,9 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Reflection;
 using Board;
 using UnityEngine;
+using Object = System.Object;
 
 public class GameManager : MonoBehaviour
 {
@@ -143,5 +145,10 @@ public class GameManager : MonoBehaviour
         TallyScore();
         IsGameOver = true;
         UIManager.ToggleGameOverPanel();
+    }
+
+    public static bool DoesObjectHaveAttribute<TAttribute>(Object obj) where TAttribute : Attribute
+    {
+        return obj?.GetType().GetCustomAttribute<TAttribute>() != null;
     }
 }

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+using System.Reflection;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using Random = UnityEngine.Random;
@@ -71,7 +72,7 @@ namespace Board
             }
 
             var obj = _objectsToAct[0];
-            if (GetCell(obj.To).ContainedObject is INotPathable && obj.MoveableObject is INotPathable)
+            if (GameManager.DoesObjectHaveAttribute<NotPathable>(GetCell(obj.To).ContainedObject) && GameManager.DoesObjectHaveAttribute<NotPathable>(obj.MoveableObject))
             {
                 _objectsToAct.RemoveAt(0);
             }

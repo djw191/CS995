@@ -1,8 +1,10 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Board
 {
-    public class Enemy : CellObject, IMoveableObject, INotPathable
+    [NotPathable]
+    public class Enemy : CellObject, IMoveableObject
     {
         private static readonly int Attack = Animator.StringToHash("Attack");
         private static readonly int Damaged = Animator.StringToHash("Damaged");
@@ -105,9 +107,5 @@ namespace Board
         {
             GameManager.Instance.TurnManager.OnTick -= Turn;
         }
-    }
-
-    public interface INotPathable
-    {
     }
 }
