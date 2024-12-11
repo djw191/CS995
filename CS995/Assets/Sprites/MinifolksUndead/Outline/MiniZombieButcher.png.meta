@@ -1,0 +1,1167 @@
+fileFormatVersion: 2
+guid: 41ae98c5c36bdae4db52a00a98e352e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6434814886591090587
+    second: MiniZombieButcher_0
+  - first:
+      213: -1171868615166083464
+    second: MiniZombieButcher_1
+  - first:
+      213: 6862421072433101895
+    second: MiniZombieButcher_2
+  - first:
+      213: -729060902047621941
+    second: MiniZombieButcher_3
+  - first:
+      213: -3030555385756355420
+    second: MiniZombieButcher_4
+  - first:
+      213: -2783684095645888513
+    second: MiniZombieButcher_5
+  - first:
+      213: -4711102776928934389
+    second: MiniZombieButcher_6
+  - first:
+      213: -2407107711539573928
+    second: MiniZombieButcher_7
+  - first:
+      213: -4196972436792172974
+    second: MiniZombieButcher_8
+  - first:
+      213: 7381008315713069105
+    second: MiniZombieButcher_9
+  - first:
+      213: -397063094444587521
+    second: MiniZombieButcher_10
+  - first:
+      213: 5277365496460332769
+    second: MiniZombieButcher_11
+  - first:
+      213: 1256821670301294823
+    second: MiniZombieButcher_12
+  - first:
+      213: -6377703228250162566
+    second: MiniZombieButcher_13
+  - first:
+      213: -7208137814791487590
+    second: MiniZombieButcher_14
+  - first:
+      213: -3958694567974230214
+    second: MiniZombieButcher_15
+  - first:
+      213: -1421229928855524596
+    second: MiniZombieButcher_16
+  - first:
+      213: 6774651954768262363
+    second: MiniZombieButcher_17
+  - first:
+      213: 136340612929619402
+    second: MiniZombieButcher_18
+  - first:
+      213: 8600002368195054308
+    second: MiniZombieButcher_19
+  - first:
+      213: -3915312871955640052
+    second: MiniZombieButcher_20
+  - first:
+      213: 5164928280663824740
+    second: MiniZombieButcher_21
+  - first:
+      213: -8828357143443600732
+    second: MiniZombieButcher_22
+  - first:
+      213: -2886729172834561150
+    second: MiniZombieButcher_23
+  - first:
+      213: -4955851133353128426
+    second: MiniZombieButcher_24
+  - first:
+      213: -1602685243105279496
+    second: MiniZombieButcher_25
+  - first:
+      213: -4594833224867764672
+    second: MiniZombieButcher_26
+  - first:
+      213: 2278548760672617613
+    second: MiniZombieButcher_27
+  - first:
+      213: -2740958028717139790
+    second: MiniZombieButcher_28
+  - first:
+      213: -6607688771965103445
+    second: MiniZombieButcher_29
+  - first:
+      213: 2155241792405217882
+    second: MiniZombieButcher_30
+  - first:
+      213: 603058350655839182
+    second: MiniZombieButcher_31
+  - first:
+      213: -3919299229412001814
+    second: MiniZombieButcher_32
+  - first:
+      213: -2044093899452506345
+    second: MiniZombieButcher_33
+  - first:
+      213: 3015657330015963376
+    second: MiniZombieButcher_34
+  - first:
+      213: -6970499471282108384
+    second: MiniZombieButcher_35
+  - first:
+      213: 3592397108578727395
+    second: MiniZombieButcher_36
+  - first:
+      213: -3382326535155942200
+    second: MiniZombieButcher_37
+  - first:
+      213: 5020701817836919485
+    second: MiniZombieButcher_38
+  - first:
+      213: -7936030977965349251
+    second: MiniZombieButcher_39
+  - first:
+      213: 5309576689233502533
+    second: MiniZombieButcher_40
+  - first:
+      213: -6194926695622236668
+    second: MiniZombieButcher_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MiniZombieButcher_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 224
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f48a6db0e0d4950800000000000000
+      internalID: 6434814886591090587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 224
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87eb89d04bfacbfe0800000000000000
+      internalID: -1171868615166083464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 224
+        width: 77
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cb7815b973c3f50800000000000000
+      internalID: 6862421072433101895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 224
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc53d9e8fad1e5f0800000000000000
+      internalID: -729060902047621941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_4
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 224
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a478d7eeed41f5d0800000000000000
+      internalID: -3030555385756355420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_5
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 224
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff4f18401e5e59d0800000000000000
+      internalID: -2783684095645888513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_6
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 224
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b066bc02cfcce9eb0800000000000000
+      internalID: -4711102776928934389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_7
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 224
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b849d2a4c389ed0800000000000000
+      internalID: -2407107711539573928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_8
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 224
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e95e42ecb51c5c0800000000000000
+      internalID: -4196972436792172974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 192
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1302846f4fb9e6660800000000000000
+      internalID: 7381008315713069105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 192
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5863628395d7af0800000000000000
+      internalID: -397063094444587521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_11
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 192
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eecb6655f7fc3940800000000000000
+      internalID: 5277365496460332769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_12
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 192
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0625476a0217110800000000000000
+      internalID: 1256821670301294823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 160
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a794554b8dd77a0800000000000000
+      internalID: -6377703228250162566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_14
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 160
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ffa4909dc87fb90800000000000000
+      internalID: -7208137814791487590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_15
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 160
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37a0a5b344ef09c0800000000000000
+      internalID: -3958694567974230214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_16
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 160
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ba962e8e6c64ce0800000000000000
+      internalID: -1421229928855524596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_17
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 160
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd43ed82f06640e50800000000000000
+      internalID: 6774651954768262363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_18
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 160
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5012aa01164e100800000000000000
+      internalID: 136340612929619402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_19
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 128
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eac8cfc698595770800000000000000
+      internalID: 8600002368195054308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_20
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 128
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01d19aefa30aa9c0800000000000000
+      internalID: -3915312871955640052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_21
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 128
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469165308e28da740800000000000000
+      internalID: 5164928280663824740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_22
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 96
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa03c2e3ff5b7580800000000000000
+      internalID: -8828357143443600732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_23
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 96
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2835072ac1740f7d0800000000000000
+      internalID: -2886729172834561150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 96
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e05c4c6a7493bb0800000000000000
+      internalID: -4955851133353128426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_25
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 96
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f103f5434e12c9e0800000000000000
+      internalID: -1602685243105279496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_26
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 96
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0462895c68fdb30c0800000000000000
+      internalID: -4594833224867764672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_27
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 96
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d844c4b86080f9f10800000000000000
+      internalID: 2278548760672617613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_28
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 96
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b85f02f13926f9d0800000000000000
+      internalID: -2740958028717139790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_29
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 96
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2dea82216cc44a0800000000000000
+      internalID: -6607688771965103445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 64
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52a361cdf4f8ed10800000000000000
+      internalID: 2155241792405217882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_31
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 64
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb9ca1ff5e7e5800800000000000000
+      internalID: 603058350655839182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_32
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae77f6ebd1adb99c0800000000000000
+      internalID: -3919299229412001814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_33
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 64
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f1793bd6be1a3e0800000000000000
+      internalID: -2044093899452506345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_34
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 64
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f887ef2d54c9d920800000000000000
+      internalID: 3015657330015963376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_35
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 64
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0288e2389afc34f90800000000000000
+      internalID: -6970499471282108384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 32
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5b9fc0322cad130800000000000000
+      internalID: 3592397108578727395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_37
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 32
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ccf6a5cfef8f01d0800000000000000
+      internalID: -3382326535155942200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_38
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbad357d3bd1da540800000000000000
+      internalID: 5020701817836919485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_39
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7621e75fdd8dd190800000000000000
+      internalID: -7936030977965349251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_40
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54125751ed76fa940800000000000000
+      internalID: 5309576689233502533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniZombieButcher_41
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4062ad11ef2370aa0800000000000000
+      internalID: -6194926695622236668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

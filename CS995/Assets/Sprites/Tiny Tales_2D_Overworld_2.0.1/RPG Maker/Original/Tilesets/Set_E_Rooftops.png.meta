@@ -1,0 +1,1292 @@
+fileFormatVersion: 2
+guid: 4006b0ed6c4a3ae4ba47aaedbe081df8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5817279590807963490
+    second: Set_E_Rooftops_0
+  - first:
+      213: -4350241460522985653
+    second: Set_E_Rooftops_1
+  - first:
+      213: -4653754885382075500
+    second: Set_E_Rooftops_2
+  - first:
+      213: 8175858416489534295
+    second: Set_E_Rooftops_3
+  - first:
+      213: 7459433740261366683
+    second: Set_E_Rooftops_4
+  - first:
+      213: -6906599192969782586
+    second: Set_E_Rooftops_5
+  - first:
+      213: 4172108604490944632
+    second: Set_E_Rooftops_6
+  - first:
+      213: 1705652238472787993
+    second: Set_E_Rooftops_7
+  - first:
+      213: 2995754443381627619
+    second: Set_E_Rooftops_8
+  - first:
+      213: 9029379012489945399
+    second: Set_E_Rooftops_9
+  - first:
+      213: -7986707334646685292
+    second: Set_E_Rooftops_10
+  - first:
+      213: 6290892066156997387
+    second: Set_E_Rooftops_11
+  - first:
+      213: 7371988926731719486
+    second: Set_E_Rooftops_12
+  - first:
+      213: 7691345375232148202
+    second: Set_E_Rooftops_13
+  - first:
+      213: -3302420191765355266
+    second: Set_E_Rooftops_14
+  - first:
+      213: 7290055473420285364
+    second: Set_E_Rooftops_15
+  - first:
+      213: 4735638353936728041
+    second: Set_E_Rooftops_16
+  - first:
+      213: 1274373639295069365
+    second: Set_E_Rooftops_17
+  - first:
+      213: 7808848082683153708
+    second: Set_E_Rooftops_18
+  - first:
+      213: -9153878142849842399
+    second: Set_E_Rooftops_19
+  - first:
+      213: -4183204142535853192
+    second: Set_E_Rooftops_20
+  - first:
+      213: 5828586273327848925
+    second: Set_E_Rooftops_21
+  - first:
+      213: -2381016993177629880
+    second: Set_E_Rooftops_22
+  - first:
+      213: 8306462339166755244
+    second: Set_E_Rooftops_23
+  - first:
+      213: -9165732351321407307
+    second: Set_E_Rooftops_24
+  - first:
+      213: -5215805280949917432
+    second: Set_E_Rooftops_25
+  - first:
+      213: -8258338024757065193
+    second: Set_E_Rooftops_26
+  - first:
+      213: 986032045511867662
+    second: Set_E_Rooftops_27
+  - first:
+      213: -2369106367590269498
+    second: Set_E_Rooftops_28
+  - first:
+      213: 7448697822876930456
+    second: Set_E_Rooftops_29
+  - first:
+      213: 7924349454261531588
+    second: Set_E_Rooftops_30
+  - first:
+      213: -419947715429779042
+    second: Set_E_Rooftops_31
+  - first:
+      213: -8783882308574733168
+    second: Set_E_Rooftops_32
+  - first:
+      213: -4311190096739444682
+    second: Set_E_Rooftops_33
+  - first:
+      213: 2325960511973539820
+    second: Set_E_Rooftops_34
+  - first:
+      213: 7005237151644444894
+    second: Set_E_Rooftops_35
+  - first:
+      213: 2889164189466475480
+    second: Set_E_Rooftops_36
+  - first:
+      213: -6490059920506495290
+    second: Set_E_Rooftops_37
+  - first:
+      213: -4884560115594299842
+    second: Set_E_Rooftops_38
+  - first:
+      213: 5589936744793749733
+    second: Set_E_Rooftops_39
+  - first:
+      213: -1185064933262240418
+    second: Set_E_Rooftops_40
+  - first:
+      213: -6991160361320704690
+    second: Set_E_Rooftops_41
+  - first:
+      213: -5477225715557495460
+    second: Set_E_Rooftops_42
+  - first:
+      213: -7955642221083912861
+    second: Set_E_Rooftops_43
+  - first:
+      213: -6000983069009170587
+    second: Set_E_Rooftops_44
+  - first:
+      213: -4931953351833273605
+    second: Set_E_Rooftops_45
+  - first:
+      213: 6084426230725022919
+    second: Set_E_Rooftops_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Set_E_Rooftops_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 256
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98f2ce880fd44fa0800000000000000
+      internalID: -5817279590807963490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 169
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47d952b076d0a3c0800000000000000
+      internalID: -4350241460522985653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 169
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b0011a69a8a6fb0800000000000000
+      internalID: -4653754885382075500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_3
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 153
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7531fb889eb767170800000000000000
+      internalID: 8175858416489534295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_4
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 169
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b97d9077b358760800000000000000
+      internalID: 7459433740261366683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_5
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 153
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca590170a4d620a0800000000000000
+      internalID: -6906599192969782586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_6
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 169
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8709807cbae46e930800000000000000
+      internalID: 4172108604490944632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_7
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 153
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91835888ca1bba710800000000000000
+      internalID: 1705652238472787993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_8
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 169
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea5f084bce039920800000000000000
+      internalID: 2995754443381627619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_9
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 153
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731a4d54f5cce4d70800000000000000
+      internalID: 9029379012489945399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491a0699ef3892190800000000000000
+      internalID: -7986707334646685292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_11
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 153
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b6c9be00dbd4750800000000000000
+      internalID: 6290892066156997387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 143
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3315f1ded09e4660800000000000000
+      internalID: 7371988926731719486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 153
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae24e874ed52dba60800000000000000
+      internalID: 7691345375232148202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_14
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 143
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4afb225527b22d0800000000000000
+      internalID: -3302420191765355266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_15
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 153
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5bb1624da7b2560800000000000000
+      internalID: 7290055473420285364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_16
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 143
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef3d1f0efd58b140800000000000000
+      internalID: 4735638353936728041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_17
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 153
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bced41b21c7fa110800000000000000
+      internalID: 1274373639295069365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_18
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 143
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2dc15945f99e5c60800000000000000
+      internalID: 7808848082683153708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 256
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12309321454e6f080800000000000000
+      internalID: -9153878142849842399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b3535fef542f5c0800000000000000
+      internalID: -4183204142535853192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 25
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd9c6c955c43e050800000000000000
+      internalID: 5828586273327848925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_22
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 25
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b8a7de8ade4fed0800000000000000
+      internalID: -2381016993177629880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_23
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 25
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9d13aec7b764370800000000000000
+      internalID: 8306462339166755244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_24
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 25
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b08e251df6ccc080800000000000000
+      internalID: -9165732351321407307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_25
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 25
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809af534bbcbd97b0800000000000000
+      internalID: -5215805280949917432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_26
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 25
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a014f225d746d80800000000000000
+      internalID: -8258338024757065193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 15
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0df2e1dbe61fad00800000000000000
+      internalID: 986032045511867662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_28
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 15
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd7aac8f4e3f1fd0800000000000000
+      internalID: -2369106367590269498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_29
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 15
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8911ecb74371f5760800000000000000
+      internalID: 7448697822876930456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_30
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 15
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3b159f7d1f8fd60800000000000000
+      internalID: 7924349454261531588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_31
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 15
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99329d17cb0c2af0800000000000000
+      internalID: -419947715429779042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_32
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 15
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c90905491691680800000000000000
+      internalID: -8783882308574733168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_33
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 15
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638d9acd2739b24c0800000000000000
+      internalID: -4311190096739444682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_34
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefb4cd13c8774020800000000000000
+      internalID: 2325960511973539820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_35
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8e227f21a973160800000000000000
+      internalID: 7005237151644444894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_36
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dbbdead58f581820800000000000000
+      internalID: 2889164189466475480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_37
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 0
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ced53b53ecaee5a0800000000000000
+      internalID: -6490059920506495290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_38
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36f5f1547e863cb0800000000000000
+      internalID: -4884560115594299842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_39
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8b5564ad1739d40800000000000000
+      internalID: 5589936744793749733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_40
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55d121d8bdcd8fe0800000000000000
+      internalID: -1185064933262240418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_41
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4510bf21b86afe90800000000000000
+      internalID: -6991160361320704690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_42
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d8f853b3cfcf3b0800000000000000
+      internalID: -5477225715557495460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_43
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365913cfc81e79190800000000000000
+      internalID: -7955642221083912861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_44
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f239c71b938bca0800000000000000
+      internalID: -6000983069009170587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_45
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa3e2f9e8e2e8bb0800000000000000
+      internalID: -4931953351833273605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_Rooftops_46
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c41f609b69307450800000000000000
+      internalID: 6084426230725022919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

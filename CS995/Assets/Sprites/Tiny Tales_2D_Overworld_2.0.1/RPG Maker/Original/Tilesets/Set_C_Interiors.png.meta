@@ -1,0 +1,1692 @@
+fileFormatVersion: 2
+guid: e3430c60bed1a154282bf290b1383d58
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9096141341169704489
+    second: Set_C_Interiors_0
+  - first:
+      213: -377700097787740848
+    second: Set_C_Interiors_1
+  - first:
+      213: 7245600923651129812
+    second: Set_C_Interiors_2
+  - first:
+      213: -1357226444508170503
+    second: Set_C_Interiors_3
+  - first:
+      213: 8141087669107314946
+    second: Set_C_Interiors_4
+  - first:
+      213: -1502557022610945142
+    second: Set_C_Interiors_5
+  - first:
+      213: 3453666309999501015
+    second: Set_C_Interiors_6
+  - first:
+      213: 641911265608495590
+    second: Set_C_Interiors_7
+  - first:
+      213: -1477763408790717525
+    second: Set_C_Interiors_8
+  - first:
+      213: -2874315360049105470
+    second: Set_C_Interiors_9
+  - first:
+      213: 6036322407407031149
+    second: Set_C_Interiors_10
+  - first:
+      213: 4162465770233205634
+    second: Set_C_Interiors_11
+  - first:
+      213: -7816812778552916225
+    second: Set_C_Interiors_12
+  - first:
+      213: -3268004538748819489
+    second: Set_C_Interiors_13
+  - first:
+      213: -8104930018974467253
+    second: Set_C_Interiors_14
+  - first:
+      213: 4132533930221281413
+    second: Set_C_Interiors_15
+  - first:
+      213: -3285265338782974376
+    second: Set_C_Interiors_16
+  - first:
+      213: -2845052123372140927
+    second: Set_C_Interiors_17
+  - first:
+      213: 419266909937370485
+    second: Set_C_Interiors_18
+  - first:
+      213: 1203252034043642770
+    second: Set_C_Interiors_19
+  - first:
+      213: 6721602332221343457
+    second: Set_C_Interiors_20
+  - first:
+      213: -4392861261992375013
+    second: Set_C_Interiors_21
+  - first:
+      213: 4346766656429306926
+    second: Set_C_Interiors_22
+  - first:
+      213: -8231364278694328033
+    second: Set_C_Interiors_23
+  - first:
+      213: -1980901960422673923
+    second: Set_C_Interiors_24
+  - first:
+      213: 6166596866065003029
+    second: Set_C_Interiors_25
+  - first:
+      213: -6667465989058263781
+    second: Set_C_Interiors_26
+  - first:
+      213: 8384541543996254145
+    second: Set_C_Interiors_27
+  - first:
+      213: 5641451819208124330
+    second: Set_C_Interiors_28
+  - first:
+      213: -7023908293818527838
+    second: Set_C_Interiors_29
+  - first:
+      213: 1730490019456713265
+    second: Set_C_Interiors_30
+  - first:
+      213: -165958885041704370
+    second: Set_C_Interiors_31
+  - first:
+      213: -3256087940149181059
+    second: Set_C_Interiors_32
+  - first:
+      213: -3492429687011953362
+    second: Set_C_Interiors_33
+  - first:
+      213: -1250434611864419561
+    second: Set_C_Interiors_34
+  - first:
+      213: -7376182720319632194
+    second: Set_C_Interiors_35
+  - first:
+      213: 4496711487783312312
+    second: Set_C_Interiors_36
+  - first:
+      213: -1030117343737717574
+    second: Set_C_Interiors_37
+  - first:
+      213: -7041353992992235654
+    second: Set_C_Interiors_38
+  - first:
+      213: 271021810118991672
+    second: Set_C_Interiors_39
+  - first:
+      213: -3887422920956221080
+    second: Set_C_Interiors_40
+  - first:
+      213: 5042682259585689722
+    second: Set_C_Interiors_41
+  - first:
+      213: 8653910817554310237
+    second: Set_C_Interiors_42
+  - first:
+      213: -7146689285776041062
+    second: Set_C_Interiors_43
+  - first:
+      213: -2537163149901411892
+    second: Set_C_Interiors_44
+  - first:
+      213: -4418822689695892903
+    second: Set_C_Interiors_45
+  - first:
+      213: -7054740111828656255
+    second: Set_C_Interiors_46
+  - first:
+      213: 7606777043351347540
+    second: Set_C_Interiors_47
+  - first:
+      213: 2075615097926773237
+    second: Set_C_Interiors_48
+  - first:
+      213: 3692686644310054899
+    second: Set_C_Interiors_49
+  - first:
+      213: -1690903951091713389
+    second: Set_C_Interiors_50
+  - first:
+      213: 618478628072452635
+    second: Set_C_Interiors_51
+  - first:
+      213: 3801999381707297694
+    second: Set_C_Interiors_52
+  - first:
+      213: -7239868881200355936
+    second: Set_C_Interiors_53
+  - first:
+      213: 4535963033265713554
+    second: Set_C_Interiors_54
+  - first:
+      213: 8760705249688715486
+    second: Set_C_Interiors_55
+  - first:
+      213: -7581643833645527082
+    second: Set_C_Interiors_56
+  - first:
+      213: -1614791406567644904
+    second: Set_C_Interiors_57
+  - first:
+      213: -3372996006772865213
+    second: Set_C_Interiors_58
+  - first:
+      213: 6832633896146670213
+    second: Set_C_Interiors_59
+  - first:
+      213: 6249260053973046196
+    second: Set_C_Interiors_60
+  - first:
+      213: 7664124642939964902
+    second: Set_C_Interiors_61
+  - first:
+      213: -4303874733761094086
+    second: Set_C_Interiors_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Set_C_Interiors_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e5a2b3b5cfb3e70800000000000000
+      internalID: 9096141341169704489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 223
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d3bbf13c322caf0800000000000000
+      internalID: -377700097787740848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 223
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1c776b6ab8d8460800000000000000
+      internalID: 7245600923651129812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 223
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6f2575db92a2de0800000000000000
+      internalID: -1357226444508170503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 231
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201547a0a14faf070800000000000000
+      internalID: 8141087669107314946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 231
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b818c4958d52be0800000000000000
+      internalID: -1502557022610945142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 231
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de114ce533edef20800000000000000
+      internalID: 3453666309999501015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 231
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e17ae325e688e800800000000000000
+      internalID: 641911265608495590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 231
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab75fc520eed7be0800000000000000
+      internalID: -1477763408790717525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 183
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5f2d7a8616c18d0800000000000000
+      internalID: -2874315360049105470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 183
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d631a3b6f3355c350800000000000000
+      internalID: 6036322407407031149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_11
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 183
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2831978709c04c930800000000000000
+      internalID: 4162465770233205634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_12
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 183
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff68e92713a158390800000000000000
+      internalID: -7816812778552916225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_13
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 191
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd72387cf27b5a2d0800000000000000
+      internalID: -3268004538748819489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_14
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 199
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b70a9e611858f80800000000000000
+      internalID: -8104930018974467253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_15
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 199
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580a615e6b5b95930800000000000000
+      internalID: 4132533930221281413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 199
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85effe894946862d0800000000000000
+      internalID: -3285265338782974376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 199
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186cee2ea285488d0800000000000000
+      internalID: -2845052123372140927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 42
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57584e0880981d500800000000000000
+      internalID: 419266909937370485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_19
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 159
+        width: 52
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2930070995fc2b010800000000000000
+      internalID: 1203252034043642770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_20
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 159
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e68d7565bde74d50800000000000000
+      internalID: 6721602332221343457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_21
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 167
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1dce53e4fb6903c0800000000000000
+      internalID: -4392861261992375013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_22
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 167
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e243bfd6e31d25c30800000000000000
+      internalID: 4346766656429306926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_23
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 135
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19c597dcc154cd80800000000000000
+      internalID: -8231364278694328033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_24
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 175
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1b12a892c6284e0800000000000000
+      internalID: -1980901960422673923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 175
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51277da7d27249550800000000000000
+      internalID: 6166596866065003029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_26
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 167
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b150f2a32076873a0800000000000000
+      internalID: -6667465989058263781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_27
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 135
+        width: 17
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7e66e6c10eb5470800000000000000
+      internalID: 8384541543996254145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 135
+        width: 16
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7a1653a867a4e40800000000000000
+      internalID: 5641451819208124330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afc60cfe90168e90800000000000000
+      internalID: -7023908293818527838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_30
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 111
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1328311118fe30810800000000000000
+      internalID: 1730490019456713265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_31
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 111
+        width: 11
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42f4c9f54562bdf0800000000000000
+      internalID: -165958885041704370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_32
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 135
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7589f9154d00d2d0800000000000000
+      internalID: -3256087940149181059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 135
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25bf9e04b5688fc0800000000000000
+      internalID: -3492429687011953362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713c7f8785095aee0800000000000000
+      internalID: -1250434611864419561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_35
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 79
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc49f485e882a990800000000000000
+      internalID: -7376182720319632194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_36
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 79
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb1eb60647876e30800000000000000
+      internalID: 4496711487783312312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_37
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 95
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc5b81dbb944b1f0800000000000000
+      internalID: -1030117343737717574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_38
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 103
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f5bed99d5184e90800000000000000
+      internalID: -7041353992992235654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_39
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 103
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f968e76ecd2c300800000000000000
+      internalID: 271021810118991672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_40
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 103
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86961b823791d0ac0800000000000000
+      internalID: -3887422920956221080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_41
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 103
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78e4cd3cc43bf540800000000000000
+      internalID: 5042682259585689722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d542c36c90ed81870800000000000000
+      internalID: 8653910817554310237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_43
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b9a3995fbd1dc90800000000000000
+      internalID: -7146689285776041062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_44
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 65
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc94ae0ce8f2accd0800000000000000
+      internalID: -2537163149901411892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_45
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 66
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a7d37fc203da2c0800000000000000
+      internalID: -4418822689695892903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fd0c3fe37881e90800000000000000
+      internalID: -7054740111828656255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451ad822b63b09960800000000000000
+      internalID: 7606777043351347540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_48
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 31
+        width: 114
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9ec5a3fe01ecc10800000000000000
+      internalID: 2075615097926773237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_49
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 63
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f71ee430fe0f3330800000000000000
+      internalID: 3692686644310054899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39abfd5b0d3b888e0800000000000000
+      internalID: -1690903951091713389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_51
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 39
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12fd6f0907459800800000000000000
+      internalID: 618478628072452635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_52
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 41
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e931be63b4a63c430800000000000000
+      internalID: 3801999381707297694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_53
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 42
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5e5ab6c91d68b90800000000000000
+      internalID: -7239868881200355936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_54
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 40
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2913b10a85af2fe30800000000000000
+      internalID: 4535963033265713554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_55
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 40
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed088952207449970800000000000000
+      internalID: 8760705249688715486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_56
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 49
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df07024a1798c690800000000000000
+      internalID: -7581643833645527082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 65
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811ae2175cb1799e0800000000000000
+      internalID: -1614791406567644904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_58
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 66
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3470e73b006b031d0800000000000000
+      internalID: -3372996006772865213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_59
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 7
+        width: 146
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5829d14e35462de50800000000000000
+      internalID: 6832633896146670213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_60
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 31
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b31a1ab8e4d9b650800000000000000
+      internalID: 6249260053973046196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_61
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 19
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed01c8a1c07c5a60800000000000000
+      internalID: 7664124642939964902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_C_Interiors_62
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 7
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e14688bb09544c0800000000000000
+      internalID: -4303874733761094086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

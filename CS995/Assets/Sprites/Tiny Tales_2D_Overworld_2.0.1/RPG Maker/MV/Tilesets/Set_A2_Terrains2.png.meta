@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: efed1469a8fe38b41b615c23ed043dbe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6153272364059573958
+    second: Set_A2_Terrains2_0
+  - first:
+      213: 1940249561563783905
+    second: Set_A2_Terrains2_1
+  - first:
+      213: 170949066720305204
+    second: Set_A2_Terrains2_2
+  - first:
+      213: -3030587832109246915
+    second: Set_A2_Terrains2_3
+  - first:
+      213: 6279547176529293636
+    second: Set_A2_Terrains2_4
+  - first:
+      213: 5885622928747898628
+    second: Set_A2_Terrains2_5
+  - first:
+      213: -7659101656480728890
+    second: Set_A2_Terrains2_6
+  - first:
+      213: 3078941859761306433
+    second: Set_A2_Terrains2_7
+  - first:
+      213: 8669790768841426852
+    second: Set_A2_Terrains2_8
+  - first:
+      213: 4368984330128937085
+    second: Set_A2_Terrains2_9
+  - first:
+      213: -3071225499657011928
+    second: Set_A2_Terrains2_10
+  - first:
+      213: 3225033925539074834
+    second: Set_A2_Terrains2_11
+  - first:
+      213: -4286003667467958266
+    second: Set_A2_Terrains2_12
+  - first:
+      213: -6389753883018984693
+    second: Set_A2_Terrains2_13
+  - first:
+      213: 4755788903782260589
+    second: Set_A2_Terrains2_14
+  - first:
+      213: 3754312019637065764
+    second: Set_A2_Terrains2_15
+  - first:
+      213: -1885667221549485168
+    second: Set_A2_Terrains2_16
+  - first:
+      213: 4460562157579663341
+    second: Set_A2_Terrains2_17
+  - first:
+      213: 8861391923140200785
+    second: Set_A2_Terrains2_18
+  - first:
+      213: 7544196644870818310
+    second: Set_A2_Terrains2_19
+  - first:
+      213: -4246577124639378710
+    second: Set_A2_Terrains2_20
+  - first:
+      213: 3357158026469050778
+    second: Set_A2_Terrains2_21
+  - first:
+      213: 1328366276698706809
+    second: Set_A2_Terrains2_22
+  - first:
+      213: -1716456820522541177
+    second: Set_A2_Terrains2_23
+  - first:
+      213: -3679976621815691561
+    second: Set_A2_Terrains2_24
+  - first:
+      213: 3593168770450980994
+    second: Set_A2_Terrains2_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 385
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cebff91d90d46550800000000000000
+      internalID: 6153272364059573958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_1
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 530
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2ed9442b62dea10800000000000000
+      internalID: 1940249561563783905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_2
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 527
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4306c8c35455f5200800000000000000
+      internalID: 170949066720305204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_3
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 530
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36d1866c6031f5d0800000000000000
+      internalID: -3030587832109246915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_4
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 143
+        width: 146
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441f557f2ee652750800000000000000
+      internalID: 6279547176529293636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_5
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 536
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407a9edcedeeda150800000000000000
+      internalID: 5885622928747898628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_6
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 527
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c83cd28f9765b590800000000000000
+      internalID: -7659101656480728890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_7
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 434
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b372bfe499aba20800000000000000
+      internalID: 3078941859761306433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_8
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 434
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a701cd05c8415870800000000000000
+      internalID: 8669790768841426852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_9
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 437
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d705592b910c1ac30800000000000000
+      internalID: 4368984330128937085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_10
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 386
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d72db1ea0d065d0800000000000000
+      internalID: -3071225499657011928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_11
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 383
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2131750b44f91cc20800000000000000
+      internalID: 3225033925539074834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_12
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 386
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6080d866f5e0584c0800000000000000
+      internalID: -4286003667467958266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_13
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 392
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b030b70a2b80357a0800000000000000
+      internalID: -6389753883018984693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_14
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 383
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f9fac8fc4fff140800000000000000
+      internalID: 4755788903782260589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_15
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 290
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428527204eef91430800000000000000
+      internalID: 3754312019637065764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_16
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 290
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093f1f617a3c4d5e0800000000000000
+      internalID: -1885667221549485168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_17
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 293
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7f51536a917ed30800000000000000
+      internalID: 4460562157579663341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_18
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 242
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1598942210df9fa70800000000000000
+      internalID: 8861391923140200785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_19
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 239
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a083da0ee52b860800000000000000
+      internalID: 7544196644870818310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_20
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 242
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2f19eba902115c0800000000000000
+      internalID: -4246577124639378710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_21
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 248
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a990a862075079e20800000000000000
+      internalID: 3357158026469050778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_22
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 239
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9731c36371e4f6210800000000000000
+      internalID: 1328366276698706809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_23
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 146
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f157cad9bed28e0800000000000000
+      internalID: -1716456820522541177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_24
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 146
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d60fe282c81eecc0800000000000000
+      internalID: -3679976621815691561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A2_Terrains2_25
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 149
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28002c495ff7dd130800000000000000
+      internalID: 3593168770450980994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
