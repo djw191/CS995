@@ -53,7 +53,7 @@ namespace Board
             for (var j = 0; j < _grid.GetLength(1); j++)
             {
                 var passable = _cells[i, j].Passable;
-                if (GameManager.DoesObjectHaveAttribute<NotPathable>(_cells[i, j].ContainedObject)) passable = false;
+                if (Attrs.HasAttr<NotPathable>(_cells[i, j].ContainedObject)) passable = false;
                 var pathNode = _grid[i, j] = new PathNode(i, j,
                     _cells[i, j].ContainedObject is WallObject w ? w.HitPoints : 0, passable);
                 pathNode.GCost = int.MaxValue;

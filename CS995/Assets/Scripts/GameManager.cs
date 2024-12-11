@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
     public TurnManager TurnManager { get; private set; }
     public UIManager UIManager { get; private set; }
     [DefaultValue(0)] public int CurrentLevel { get; private set; }
-    public float Score { get; private set; }
+    [Save] public float Score;
 
     public bool Paused { get; private set; }
     public bool IsGameOver { get; private set; }
@@ -145,10 +145,5 @@ public class GameManager : MonoBehaviour
         TallyScore();
         IsGameOver = true;
         UIManager.ToggleGameOverPanel();
-    }
-
-    public static bool DoesObjectHaveAttribute<TAttribute>(Object obj) where TAttribute : Attribute
-    {
-        return obj?.GetType().GetCustomAttribute<TAttribute>() != null;
     }
 }

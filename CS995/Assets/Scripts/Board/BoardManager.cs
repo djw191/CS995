@@ -72,7 +72,7 @@ namespace Board
             }
 
             var obj = _objectsToAct[0];
-            if (GameManager.DoesObjectHaveAttribute<NotPathable>(GetCell(obj.To).ContainedObject) && GameManager.DoesObjectHaveAttribute<NotPathable>(obj.MoveableObject))
+            if (Attrs.HasAttr<NotPathable>(GetCell(obj.To).ContainedObject) && Attrs.HasAttr<NotPathable>(obj.MoveableObject))
             {
                 _objectsToAct.RemoveAt(0);
             }
