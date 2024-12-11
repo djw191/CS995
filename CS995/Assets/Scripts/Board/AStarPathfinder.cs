@@ -43,6 +43,8 @@ namespace Board
         public Vector2Int GetNextCell(Vector2Int start, Vector2Int end)
         {
             var path = FindPath(start, end);
+            if(path == null || path.Count < 2)
+                return start;
             return new Vector2Int( path[1].X, path[1].Y);
         }
 
@@ -52,7 +54,9 @@ namespace Board
             {
                 for (int j = 0; j < _grid.GetLength(1); j++)
                 {
-                    PathNode pathNode = _grid[i, j] = new PathNode(_grid,i, j, _cells[i, j].ContainedObject is WallObject w ? w.HitPoints : 0, _cells[i, j].Passable);
+                    bool passable = _cells[i, j].Passable;
+                    if (_cells[i, j].ContainedObject is INotPathable) passable = false;
+                    PathNode pathNode = _grid[i, j] = new PathNode(_grid,i, j, _cells[i, j].ContainedObject is WallObject w ? w.HitPoints : 0, passable);
                     pathNode.GCost = int.MaxValue;
                     pathNode.Parent = null;
                 }

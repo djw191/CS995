@@ -2,7 +2,7 @@
 
 namespace Board
 {
-    public class Enemy : CellObject, IMoveableObject
+    public class Enemy : CellObject, IMoveableObject, INotPathable
     {
         private static readonly int Attack = Animator.StringToHash("Attack");
         private static readonly int Damaged = Animator.StringToHash("Damaged");
@@ -60,6 +60,7 @@ namespace Board
             CurrentMovementPoints--;
             
             Vector2Int nextCell = _boardManager.GetNextCell(Position, _player.Position, AttackPower);
+            //TODO with multiple enemies, they can both pathfind into the same square, must do this sequentially
             
             var diff = new Vector2Int(nextCell.x - Position.x, nextCell.y - Position.y);
             
@@ -104,5 +105,9 @@ namespace Board
         {
             GameManager.Instance.TurnManager.OnTick -= Turn;
         }
+    }
+
+    public interface INotPathable
+    {
     }
 }

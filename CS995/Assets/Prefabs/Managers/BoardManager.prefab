@@ -212,7 +212,7 @@ MonoBehaviour:
   - {fileID: 8738390842627400071, guid: 2cfa9f781bd9c2740bd393334cbde64e, type: 3}
   enemyPrefabs:
   - {fileID: 3153962712081765207, guid: 8b116ef64b994cb428266a0bebea29da, type: 3}
-  targetEnemies: 1
+  targetEnemies: 3
   movementSpeed: 1.5
   <Tilemap>k__BackingField: {fileID: 1512759460177340067}
   <OutlineTilemap>k__BackingField: {fileID: 4804472636194248528}

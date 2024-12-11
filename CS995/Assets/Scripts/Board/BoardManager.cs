@@ -72,7 +72,11 @@ namespace Board
             }
 
             var obj = _objectsToAct[0];
-            if (obj.ActionType_ == ActionData.ActionType.Move && obj.Animator != null)
+            if (GetCell(obj.To).ContainedObject is INotPathable && obj.MoveableObject is INotPathable)
+            {
+                _objectsToAct.RemoveAt(0);
+            }
+            else if (obj.ActionType_ == ActionData.ActionType.Move && obj.Animator != null)
             {
                 obj.Animator.SetBool(Moving, true);
                 obj.MoveableObject.Position = obj.To;
@@ -100,7 +104,7 @@ namespace Board
                 toCell.ContainedObject = fromCell.ContainedObject;
                 fromCell.ContainedObject = null;
             }
-            else if (obj.ActionType_ == ActionData.ActionType.Attack)
+            else if (obj.ActionType_ == ActionData.ActionType.Attack && obj.Animator != null)
             {
                 obj.Animator.SetBool(Attack, true);
                 _allowedToMove = false;
