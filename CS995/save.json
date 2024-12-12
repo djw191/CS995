@@ -1,0 +1,11 @@
+[
+    {
+        "prefabLocation": "Assets/Prefabs/17cba4b7-a859-47a3-ba38-165f8772f208.prefab",
+        "ID": "17cba4b7-a859-47a3-ba38-165f8772f208",
+        "members": {
+            "GameManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null": {
+                "Score": 26.7
+            }
+        }
+    }
+]

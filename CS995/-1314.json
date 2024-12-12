@@ -1,0 +1,25 @@
+{
+    "type": "GameManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "ID": -1314,
+    "transform": {
+        "Position": [
+            2.427978,
+            0.476675451,
+            0.0339640975
+        ],
+        "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Scale": [
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    "members": {
+        "Score": 0.0
+    }
+}

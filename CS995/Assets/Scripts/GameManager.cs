@@ -1,9 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
-using System.Reflection;
 using Board;
 using UnityEngine;
-using Object = System.Object;
 
 public class GameManager : MonoBehaviour
 {
@@ -28,7 +26,7 @@ public class GameManager : MonoBehaviour
     public TurnManager TurnManager { get; private set; }
     public UIManager UIManager { get; private set; }
     [DefaultValue(0)] public int CurrentLevel { get; private set; }
-    public float Score { get; private set; }
+    [Save] public float Score { get; private set; }
 
     public bool Paused { get; private set; }
     public bool IsGameOver { get; private set; }
@@ -99,6 +97,7 @@ public class GameManager : MonoBehaviour
 
     public void NewLevel()
     {
+        Attrs.Load();
         var isFirstLevel = CurrentLevel == 0;
         BoardManager.Clean();
 
