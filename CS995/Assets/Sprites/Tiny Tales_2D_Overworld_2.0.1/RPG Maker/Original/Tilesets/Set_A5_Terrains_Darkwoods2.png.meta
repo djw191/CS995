@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Set_A5_Terrains_Darkwoods2_0: 1782119177770153527
+      Set_A5_Terrains_Darkwoods2_1: 1052364314141005836
+      Set_A5_Terrains_Darkwoods2_2: 1961173297110301109
+      Set_A5_Terrains_Darkwoods2_3: 773211912210609196
+      Set_A5_Terrains_Darkwoods2_4: -8274259621960367846
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

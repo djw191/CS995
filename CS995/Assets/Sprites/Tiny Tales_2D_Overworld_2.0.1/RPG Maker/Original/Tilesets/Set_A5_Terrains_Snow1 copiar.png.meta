@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Set_A5_Terrains_Snow1 copiar_0: 4466483214228809203
+      Set_A5_Terrains_Snow1 copiar_1: -8420356481992080799
+      Set_A5_Terrains_Snow1 copiar_2: 799530532010234516
+      Set_A5_Terrains_Snow1 copiar_3: -6449516666489523231
+      Set_A5_Terrains_Snow1 copiar_4: 7327870309388453650
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

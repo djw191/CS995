@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
     public TurnManager TurnManager { get; private set; }
     public UIManager UIManager { get; private set; }
     [DefaultValue(0)] public int CurrentLevel { get; private set; }
-    [Save] public float Score;
+    public float Score { get; private set; }
 
     public bool Paused { get; private set; }
     public bool IsGameOver { get; private set; }

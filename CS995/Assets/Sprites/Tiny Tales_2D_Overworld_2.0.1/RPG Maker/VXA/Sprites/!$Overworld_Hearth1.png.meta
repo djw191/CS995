@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      '!$Overworld_Hearth1_0': 2650472637843786245
+      '!$Overworld_Hearth1_1': -2950348357689246561
+      '!$Overworld_Hearth1_10': -3580131416066909242
+      '!$Overworld_Hearth1_11': 6264692703415338084
+      '!$Overworld_Hearth1_2': 3410506072899511777
+      '!$Overworld_Hearth1_3': 396694114679438047
+      '!$Overworld_Hearth1_4': 2409053682064276940
+      '!$Overworld_Hearth1_5': 8303413714022404877
+      '!$Overworld_Hearth1_6': -4057979941618633601
+      '!$Overworld_Hearth1_7': -4164081916914532056
+      '!$Overworld_Hearth1_8': 8626540877240674629
+      '!$Overworld_Hearth1_9': 2043414112090646611
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

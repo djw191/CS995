@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cabin_in_the_Woods_0: 1558724773264186510
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

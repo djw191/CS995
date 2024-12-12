@@ -334,7 +334,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      '!$Overworld_Doors1_A_0': -1817560088324849640
+      '!$Overworld_Doors1_A_1': 7525454815025690907
+      '!$Overworld_Doors1_A_2': 1371888166503496988
+      '!$Overworld_Doors1_A_3': -8039216220607677877
+      '!$Overworld_Doors1_A_4': 8479580702907468968
+      '!$Overworld_Doors1_A_5': 7972987647878558543
+      '!$Overworld_Doors1_A_6': 7724323940810559683
+      '!$Overworld_Doors1_A_7': -9021239838269359775
+      '!$Overworld_Doors1_A_8': 6704966604331718411
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

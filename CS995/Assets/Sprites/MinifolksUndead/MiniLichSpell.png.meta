@@ -509,7 +509,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MiniLichSpell_0: -8595064523019036156
+      MiniLichSpell_1: 9043523905998622887
+      MiniLichSpell_10: 9117113616719347731
+      MiniLichSpell_11: -396380095087835620
+      MiniLichSpell_12: -8618703726845918195
+      MiniLichSpell_13: -1849711337130085653
+      MiniLichSpell_14: 88888323032673298
+      MiniLichSpell_15: -3259281692622469629
+      MiniLichSpell_2: 1647697495183587091
+      MiniLichSpell_3: 6147648265333062406
+      MiniLichSpell_4: 7143579350114482389
+      MiniLichSpell_5: -2214751623368823050
+      MiniLichSpell_6: 8923854940239479148
+      MiniLichSpell_7: 1977875865601609473
+      MiniLichSpell_8: 2423924443630132557
+      MiniLichSpell_9: 5723290350411714663
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

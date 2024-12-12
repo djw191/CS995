@@ -759,7 +759,33 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MiniReaper_0: -1306398620403923448
+      MiniReaper_1: -3755011463808866271
+      MiniReaper_10: -3416237415848799823
+      MiniReaper_11: 6823655527727214674
+      MiniReaper_12: -1183040773413604917
+      MiniReaper_13: 3884626809150328298
+      MiniReaper_14: -5533370961545066490
+      MiniReaper_15: 573492547749530975
+      MiniReaper_16: -5192274458528036198
+      MiniReaper_17: -8967147874417861253
+      MiniReaper_18: 4144647749789919025
+      MiniReaper_19: 7179357125391343038
+      MiniReaper_2: 6879370497264782798
+      MiniReaper_20: 8194912063687354227
+      MiniReaper_21: 3559698273974756321
+      MiniReaper_22: -8102109656200768182
+      MiniReaper_23: 9128790778768434346
+      MiniReaper_24: 2053825513899476782
+      MiniReaper_25: -5386753788417984520
+      MiniReaper_3: -6554896691592809601
+      MiniReaper_4: 761433719152378904
+      MiniReaper_5: 5902921133678760377
+      MiniReaper_6: 3673880363055046888
+      MiniReaper_7: -6984653747195238710
+      MiniReaper_8: -92650820662895957
+      MiniReaper_9: 7264866116398942738
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Set_A5_Terrains_Desert1_0: -4124872421380233733
+      Set_A5_Terrains_Desert1_1: -3228010604740170472
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

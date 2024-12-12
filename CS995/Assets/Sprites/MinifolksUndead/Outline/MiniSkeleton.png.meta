@@ -809,7 +809,35 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MiniSkeleton_0: -5857277257303896959
+      MiniSkeleton_1: 5598420246075203341
+      MiniSkeleton_10: -1745054092518526431
+      MiniSkeleton_11: 2136315103257545933
+      MiniSkeleton_12: -7035089869595794227
+      MiniSkeleton_13: -2051290055169123762
+      MiniSkeleton_14: 1629688704614694347
+      MiniSkeleton_15: -2579269803108206755
+      MiniSkeleton_16: 495023125054840279
+      MiniSkeleton_17: -8239522332480155744
+      MiniSkeleton_18: -2013354610732275161
+      MiniSkeleton_19: 6733090827035125031
+      MiniSkeleton_2: 4741912772974298993
+      MiniSkeleton_20: -1426717804143236366
+      MiniSkeleton_21: 220774416059327472
+      MiniSkeleton_22: 5519869023959785258
+      MiniSkeleton_23: -299199654909226628
+      MiniSkeleton_24: 4242118834532793696
+      MiniSkeleton_25: 8294039700805927979
+      MiniSkeleton_26: -4004106254484559888
+      MiniSkeleton_27: 4444598697137738989
+      MiniSkeleton_3: 4946358856269574896
+      MiniSkeleton_4: 5269016977903079246
+      MiniSkeleton_5: 1090278736371270353
+      MiniSkeleton_6: 664043477499581586
+      MiniSkeleton_7: 6090129705601133921
+      MiniSkeleton_8: -8610337514591228780
+      MiniSkeleton_9: -1103675475604187144
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      '!$Overworld_DoubleDoors2_0': 5844323401893191380
+      '!$Overworld_DoubleDoors2_1': 5009749908418166525
+      '!$Overworld_DoubleDoors2_2': -6353859102621842047
+      '!$Overworld_DoubleDoors2_3': 3327830348307560276
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

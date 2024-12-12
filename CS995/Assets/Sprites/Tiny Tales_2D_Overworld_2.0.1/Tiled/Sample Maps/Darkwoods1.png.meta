@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Darkwoods1_0: 6067596660151831401
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

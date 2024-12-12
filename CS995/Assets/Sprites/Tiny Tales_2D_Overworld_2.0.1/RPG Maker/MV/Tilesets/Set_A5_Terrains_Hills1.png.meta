@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Set_A5_Terrains_Hills1_0: 7205351035960170548
+      Set_A5_Terrains_Hills1_1: -5948485029497349995
+      Set_A5_Terrains_Hills1_2: -1822380362148954388
+      Set_A5_Terrains_Hills1_3: 347202041453604812
+      Set_A5_Terrains_Hills1_4: 1112201189407728402
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

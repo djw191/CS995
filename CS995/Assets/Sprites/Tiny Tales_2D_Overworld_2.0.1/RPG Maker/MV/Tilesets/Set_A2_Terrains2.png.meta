@@ -759,7 +759,33 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Set_A2_Terrains2_0: 6153272364059573958
+      Set_A2_Terrains2_1: 1940249561563783905
+      Set_A2_Terrains2_10: -3071225499657011928
+      Set_A2_Terrains2_11: 3225033925539074834
+      Set_A2_Terrains2_12: -4286003667467958266
+      Set_A2_Terrains2_13: -6389753883018984693
+      Set_A2_Terrains2_14: 4755788903782260589
+      Set_A2_Terrains2_15: 3754312019637065764
+      Set_A2_Terrains2_16: -1885667221549485168
+      Set_A2_Terrains2_17: 4460562157579663341
+      Set_A2_Terrains2_18: 8861391923140200785
+      Set_A2_Terrains2_19: 7544196644870818310
+      Set_A2_Terrains2_2: 170949066720305204
+      Set_A2_Terrains2_20: -4246577124639378710
+      Set_A2_Terrains2_21: 3357158026469050778
+      Set_A2_Terrains2_22: 1328366276698706809
+      Set_A2_Terrains2_23: -1716456820522541177
+      Set_A2_Terrains2_24: -3679976621815691561
+      Set_A2_Terrains2_25: 3593168770450980994
+      Set_A2_Terrains2_3: -3030587832109246915
+      Set_A2_Terrains2_4: 6279547176529293636
+      Set_A2_Terrains2_5: 5885622928747898628
+      Set_A2_Terrains2_6: -7659101656480728890
+      Set_A2_Terrains2_7: 3078941859761306433
+      Set_A2_Terrains2_8: 8669790768841426852
+      Set_A2_Terrains2_9: 4368984330128937085
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

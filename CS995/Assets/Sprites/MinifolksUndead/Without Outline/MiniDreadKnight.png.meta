@@ -934,7 +934,40 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MiniDreadKnight_0: -3181199474784419432
+      MiniDreadKnight_1: -2115564782587646319
+      MiniDreadKnight_10: 4791811830865133565
+      MiniDreadKnight_11: -9084181964199444612
+      MiniDreadKnight_12: -4453108219609402697
+      MiniDreadKnight_13: 6789503039356001230
+      MiniDreadKnight_14: 9112276386920555289
+      MiniDreadKnight_15: -2974196932762023251
+      MiniDreadKnight_16: 396901303549267000
+      MiniDreadKnight_17: 3485656713337067036
+      MiniDreadKnight_18: 7559207899244360764
+      MiniDreadKnight_19: 9104112250810457172
+      MiniDreadKnight_2: -7252187623039492265
+      MiniDreadKnight_20: -3046876525635714409
+      MiniDreadKnight_21: -3036588034726953641
+      MiniDreadKnight_22: 2354332577954452650
+      MiniDreadKnight_23: 3411845078389411269
+      MiniDreadKnight_24: 5450335429854503178
+      MiniDreadKnight_25: -3232105111151345250
+      MiniDreadKnight_26: 8935705662949857136
+      MiniDreadKnight_27: -1434310934096211679
+      MiniDreadKnight_28: 5377839609007508950
+      MiniDreadKnight_29: 1440659282556913351
+      MiniDreadKnight_3: -8473491917313722226
+      MiniDreadKnight_30: 7233389712463312981
+      MiniDreadKnight_31: -6774314246012071350
+      MiniDreadKnight_32: -2941710388612943456
+      MiniDreadKnight_4: -7472152526206435724
+      MiniDreadKnight_5: 7157000400399098854
+      MiniDreadKnight_6: 239165495668079726
+      MiniDreadKnight_7: -2017444884294899501
+      MiniDreadKnight_8: -2981925862030585616
+      MiniDreadKnight_9: -2301583223597085055
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

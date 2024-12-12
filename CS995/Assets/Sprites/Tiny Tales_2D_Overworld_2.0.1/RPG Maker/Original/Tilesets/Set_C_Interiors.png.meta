@@ -1684,7 +1684,70 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Set_C_Interiors_0: 9096141341169704489
+      Set_C_Interiors_1: -377700097787740848
+      Set_C_Interiors_10: 6036322407407031149
+      Set_C_Interiors_11: 4162465770233205634
+      Set_C_Interiors_12: -7816812778552916225
+      Set_C_Interiors_13: -3268004538748819489
+      Set_C_Interiors_14: -8104930018974467253
+      Set_C_Interiors_15: 4132533930221281413
+      Set_C_Interiors_16: -3285265338782974376
+      Set_C_Interiors_17: -2845052123372140927
+      Set_C_Interiors_18: 419266909937370485
+      Set_C_Interiors_19: 1203252034043642770
+      Set_C_Interiors_2: 7245600923651129812
+      Set_C_Interiors_20: 6721602332221343457
+      Set_C_Interiors_21: -4392861261992375013
+      Set_C_Interiors_22: 4346766656429306926
+      Set_C_Interiors_23: -8231364278694328033
+      Set_C_Interiors_24: -1980901960422673923
+      Set_C_Interiors_25: 6166596866065003029
+      Set_C_Interiors_26: -6667465989058263781
+      Set_C_Interiors_27: 8384541543996254145
+      Set_C_Interiors_28: 5641451819208124330
+      Set_C_Interiors_29: -7023908293818527838
+      Set_C_Interiors_3: -1357226444508170503
+      Set_C_Interiors_30: 1730490019456713265
+      Set_C_Interiors_31: -165958885041704370
+      Set_C_Interiors_32: -3256087940149181059
+      Set_C_Interiors_33: -3492429687011953362
+      Set_C_Interiors_34: -1250434611864419561
+      Set_C_Interiors_35: -7376182720319632194
+      Set_C_Interiors_36: 4496711487783312312
+      Set_C_Interiors_37: -1030117343737717574
+      Set_C_Interiors_38: -7041353992992235654
+      Set_C_Interiors_39: 271021810118991672
+      Set_C_Interiors_4: 8141087669107314946
+      Set_C_Interiors_40: -3887422920956221080
+      Set_C_Interiors_41: 5042682259585689722
+      Set_C_Interiors_42: 8653910817554310237
+      Set_C_Interiors_43: -7146689285776041062
+      Set_C_Interiors_44: -2537163149901411892
+      Set_C_Interiors_45: -4418822689695892903
+      Set_C_Interiors_46: -7054740111828656255
+      Set_C_Interiors_47: 7606777043351347540
+      Set_C_Interiors_48: 2075615097926773237
+      Set_C_Interiors_49: 3692686644310054899
+      Set_C_Interiors_5: -1502557022610945142
+      Set_C_Interiors_50: -1690903951091713389
+      Set_C_Interiors_51: 618478628072452635
+      Set_C_Interiors_52: 3801999381707297694
+      Set_C_Interiors_53: -7239868881200355936
+      Set_C_Interiors_54: 4535963033265713554
+      Set_C_Interiors_55: 8760705249688715486
+      Set_C_Interiors_56: -7581643833645527082
+      Set_C_Interiors_57: -1614791406567644904
+      Set_C_Interiors_58: -3372996006772865213
+      Set_C_Interiors_59: 6832633896146670213
+      Set_C_Interiors_6: 3453666309999501015
+      Set_C_Interiors_60: 6249260053973046196
+      Set_C_Interiors_61: 7664124642939964902
+      Set_C_Interiors_62: -4303874733761094086
+      Set_C_Interiors_7: 641911265608495590
+      Set_C_Interiors_8: -1477763408790717525
+      Set_C_Interiors_9: -2874315360049105470
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

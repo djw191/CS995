@@ -909,7 +909,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MiniDeathKnight_0: -8229406082360240803
+      MiniDeathKnight_1: -3205381206359900516
+      MiniDeathKnight_10: 974274278465486676
+      MiniDeathKnight_11: 8447534083718594635
+      MiniDeathKnight_12: -8392145651580179170
+      MiniDeathKnight_13: 5703381122778781807
+      MiniDeathKnight_14: 4856542724342146473
+      MiniDeathKnight_15: -4124599180284361543
+      MiniDeathKnight_16: -7143818268598388594
+      MiniDeathKnight_17: 274852327042587770
+      MiniDeathKnight_18: 2651192948209765356
+      MiniDeathKnight_19: 4596562937576770471
+      MiniDeathKnight_2: -4899309180904032854
+      MiniDeathKnight_20: 7008526862303613596
+      MiniDeathKnight_21: 3229239506558064766
+      MiniDeathKnight_22: 4074458718860326538
+      MiniDeathKnight_23: -4175359572107799899
+      MiniDeathKnight_24: 6854935170768155799
+      MiniDeathKnight_25: 4016716298661977059
+      MiniDeathKnight_26: 2867221463251063970
+      MiniDeathKnight_27: 7516609887951938091
+      MiniDeathKnight_28: 5326310245834619276
+      MiniDeathKnight_29: -4222932553329352274
+      MiniDeathKnight_3: -998763257116790592
+      MiniDeathKnight_30: 8055375983225684690
+      MiniDeathKnight_31: 6627269241560775328
+      MiniDeathKnight_4: -4537867739633955827
+      MiniDeathKnight_5: -835688161262796000
+      MiniDeathKnight_6: 4310998340201895805
+      MiniDeathKnight_7: 3269529694088267120
+      MiniDeathKnight_8: -6348495993060324788
+      MiniDeathKnight_9: -1805999782080193062
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

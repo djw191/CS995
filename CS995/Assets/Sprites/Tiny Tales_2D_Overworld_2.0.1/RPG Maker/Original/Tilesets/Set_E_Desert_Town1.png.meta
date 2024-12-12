@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Set_E_Desert_Town1_0: -3026513386072925155
+      Set_E_Desert_Town1_1: 6444881110486072998
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

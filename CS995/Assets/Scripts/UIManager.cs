@@ -238,8 +238,6 @@ public class UIManager : MonoBehaviour
     public void TogglePauseMenu()
     {
         if (!_okayToPause) return;
-            
-        Attrs.ProcessAssembly();
         
         _pausePanel.style.visibility = _pausePanel.style.visibility.Equals(Visibility.Visible)
             ? Visibility.Hidden

@@ -1034,7 +1034,44 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MiniSkeletonArcher_0: -2661727045553051285
+      MiniSkeletonArcher_1: -433406010910215447
+      MiniSkeletonArcher_10: -7910058709683593613
+      MiniSkeletonArcher_11: 4173000623143703961
+      MiniSkeletonArcher_12: 8529807281356613456
+      MiniSkeletonArcher_13: -2631997688859378855
+      MiniSkeletonArcher_14: -8576954243025418792
+      MiniSkeletonArcher_15: 2668706234739800273
+      MiniSkeletonArcher_16: 7195042826589896544
+      MiniSkeletonArcher_17: -6273468102817192953
+      MiniSkeletonArcher_18: 2467919108653463090
+      MiniSkeletonArcher_19: 6543303567884887456
+      MiniSkeletonArcher_2: -4027454067011444820
+      MiniSkeletonArcher_20: 2761693156160356145
+      MiniSkeletonArcher_21: -2219109004158219480
+      MiniSkeletonArcher_22: 4401188538969565278
+      MiniSkeletonArcher_23: 2042633220157959028
+      MiniSkeletonArcher_24: -7897538569072670549
+      MiniSkeletonArcher_25: -8209073741600515565
+      MiniSkeletonArcher_26: -3199765658602232650
+      MiniSkeletonArcher_27: -4775765764655654792
+      MiniSkeletonArcher_28: -1226913370919488153
+      MiniSkeletonArcher_29: -6262094184909197467
+      MiniSkeletonArcher_3: 2182171093823900455
+      MiniSkeletonArcher_30: 4611190808287953709
+      MiniSkeletonArcher_31: 807413244303563029
+      MiniSkeletonArcher_32: -2672882370506976486
+      MiniSkeletonArcher_33: 1192503091659671036
+      MiniSkeletonArcher_34: -4093348405446382017
+      MiniSkeletonArcher_35: -2145336815084915804
+      MiniSkeletonArcher_36: -4249573582658658420
+      MiniSkeletonArcher_4: 8683631082122655386
+      MiniSkeletonArcher_5: 531756277415437721
+      MiniSkeletonArcher_6: -6616086169044061240
+      MiniSkeletonArcher_7: -4417330334391477646
+      MiniSkeletonArcher_8: 4242064034834290443
+      MiniSkeletonArcher_9: 4768644027494689064
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
