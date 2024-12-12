@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
     public TurnManager TurnManager { get; private set; }
     public UIManager UIManager { get; private set; }
     [DefaultValue(0)] public int CurrentLevel { get; private set; }
-    [Save] public float Score { get; private set; }
+    public float Score { get; private set; }
 
     public bool Paused { get; private set; }
     public bool IsGameOver { get; private set; }
@@ -55,6 +55,7 @@ public class GameManager : MonoBehaviour
         BoardManager = Instantiate(boardManagerPrefab);
         Player = Instantiate(playerControllerPrefab);
         TurnManager = new TurnManager();
+        Attrs.Load();
     }
 
     public event Action OnLevelComplete;
@@ -97,7 +98,7 @@ public class GameManager : MonoBehaviour
 
     public void NewLevel()
     {
-        Attrs.Load();
+        Attrs.Save();
         var isFirstLevel = CurrentLevel == 0;
         BoardManager.Clean();
 

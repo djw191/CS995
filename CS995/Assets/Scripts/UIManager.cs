@@ -249,11 +249,10 @@ public class UIManager : MonoBehaviour
     public void ToggleGameOverPanel()
     {
         _okayToPause = false;
-        var previousHighScore = PlayerPrefs.GetFloat("HighScore", 0);
         _gameOverPanel.style.visibility = Visibility.Visible;
         _gameOverMessage.text =
-            $"Game Over\n\nYou scored: {_gameManager.Score:n2}\n\nPrevious high Score: {previousHighScore}";
-        if (_gameManager.Score > previousHighScore) PlayerPrefs.SetFloat("HighScore", _gameManager.Score);
+            $"Game Over\n\nYou scored: {_gameManager.Score:n2}\n\nPrevious high Score: {_gameManager.PreviousHighScore}";
+        if (_gameManager.Score > _gameManager.PreviousHighScore) _gameManager.PreviousHighScore = _gameManager.Score;
         StartCoroutine(FocusElement(_restartButton));
     }
 

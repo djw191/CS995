@@ -58,7 +58,8 @@ namespace Board
             TargetPowerups = 0;
             _currentMovementSpeed = movementSpeed;
             GameManager.Instance.OnLevelComplete += ClearMovement;
-            if (PlayerPrefs.GetInt("IM", 0) == 1) _currentMovementSpeed = float.MaxValue;
+            //if (PlayerPrefs.GetInt("IM", 0) == 1) _currentMovementSpeed = float.MaxValue;
+            if(IM) _currentMovementSpeed = float.MaxValue;
         }
 
         private void Update()
@@ -158,7 +159,8 @@ namespace Board
         {
             var isDefaultSpeed = _currentMovementSpeed <= movementSpeed;
             _currentMovementSpeed = isDefaultSpeed ? float.MaxValue : movementSpeed;
-            PlayerPrefs.SetInt("IM", isDefaultSpeed ? 1 : 0);
+            //PlayerPrefs.SetInt("IM", isDefaultSpeed ? 1 : 0);
+            IM = isDefaultSpeed;
         }
 
         [SuppressMessage("ReSharper", "Unity.PerformanceCriticalCodeNullComparison")]
