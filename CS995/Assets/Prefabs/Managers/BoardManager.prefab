@@ -206,13 +206,17 @@ MonoBehaviour:
   foodVariance: 0.05
   wallPrefabs:
   - {fileID: 4100398189195307510, guid: 93e50ea15f3ae59459229863bbee3a09, type: 3}
+  - {fileID: 4100398189195307510, guid: d5761988995af724ba5aa53e0c6929cf, type: 3}
+  - {fileID: 4100398189195307510, guid: 62ee1d7b600df3448894b58a1cfe138f, type: 3}
   initTargetWalls: 0.2
   wallsVariance: 0.1
   powerupPrefabs:
   - {fileID: 8738390842627400071, guid: 2cfa9f781bd9c2740bd393334cbde64e, type: 3}
+  - {fileID: 8738390842627400071, guid: 6924514974edafc48a518d144ec78f3c, type: 3}
+  - {fileID: 8738390842627400071, guid: 1730ec1505a3a8442bfe6441d1bd68c2, type: 3}
   enemyPrefabs:
   - {fileID: 3153962712081765207, guid: 8b116ef64b994cb428266a0bebea29da, type: 3}
-  targetEnemies: 3
+  targetEnemies: 1
   movementSpeed: 1.5
   <Tilemap>k__BackingField: {fileID: 1512759460177340067}
   <OutlineTilemap>k__BackingField: {fileID: 4804472636194248528}
