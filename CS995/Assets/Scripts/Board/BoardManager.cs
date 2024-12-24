@@ -38,7 +38,7 @@ namespace Board
         public int TargetPowerups { get; set; }
 
         [SerializeField] private Enemy[] enemyPrefabs;
-        [SerializeField] public int targetEnemies;
+        [SerializeField] public float targetEnemies;
 
         [SerializeField] private float movementSpeed;
         private readonly List<Vector2Int> _emptyTiles = new();
@@ -250,7 +250,7 @@ namespace Board
 
         private void GenerateEnemies()
         {
-            for (var i = 0; i < targetEnemies; i++)
+            for (var i = 0; i < Mathf.FloorToInt(targetEnemies); i++)
             {
                 var position = _emptyTiles[Random.Range(0, _emptyTiles.Count)];
                 _emptyTiles.Remove(position);

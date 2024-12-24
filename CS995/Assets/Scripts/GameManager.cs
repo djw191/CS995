@@ -108,6 +108,7 @@ public class GameManager : MonoBehaviour
             BoardManager.boardSize = new Vector2Int(BoardManager.boardSize.x + 1, BoardManager.boardSize.y + 1);
             BoardManager.TargetWalls += (1 - BoardManager.TargetWalls) / 25;
             BoardManager.TargetFood -= BoardManager.TargetFood / 25;
+            BoardManager.targetEnemies += 0.5f;
         }
 
         CurrentLevel++;
@@ -127,7 +128,7 @@ public class GameManager : MonoBehaviour
     public void ConsumeFoodPlayer(int amount)
     {
         ChangeFood(amount);
-        UIManager.DisplayMessageBox($"You consumed {amount} food.");
+        //UIManager.DisplayMessageBox($"You consumed {amount} food.");
     }
 
     public void UpdateMovementFoodPlayer()

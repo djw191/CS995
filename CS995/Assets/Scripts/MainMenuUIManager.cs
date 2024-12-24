@@ -29,7 +29,8 @@ public class MainMenuUIManager : MonoBehaviour
 
         _creditsButton.clicked += CreditsButtonOnclicked;
         _backButton.clicked += BackButtonOnClicked;
-        BackButtonOnClicked();
+        _credits.style.visibility = Visibility.Hidden;
+        StartCoroutine(UIManager.FocusElement(_startButton));
     }
 
     private void BackButtonOnClicked()
