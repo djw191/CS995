@@ -96,7 +96,7 @@ public class UIManager : MonoBehaviour
         #endregion
 
         #region ConditionPanel
-
+        //TODO possibly the most manual I could've made this
         _conditionPanel = GetPanel("ConditionPanel");
 
         _conditionResumeButton = _conditionPanel.Q<Button>("ResumeButton");
