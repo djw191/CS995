@@ -27,15 +27,26 @@
     </engine:VisualElement>
     <engine:VisualElement name="ConditionPanel" enabled="true" style="flex-grow: 1; -unity-background-image-tint-color: rgba(255, 255, 255, 0); background-color: rgb(63, 63, 63); visibility: visible; justify-content: space-evenly; align-content: center; align-items: center; display: flex; top: 0; position: absolute; left: 0; right: 0; bottom: 0;">
         <engine:Label text="CONDITIONS" name="ConditionLabel" style="-unity-font-definition: url(&quot;project://database/Assets/PlaceHolderAssets/Fonts/PressStart2P-Regular.ttf?fileID=12800000&amp;guid=b284a6525342f44599e9ce79e37c2d61&amp;type=3#PressStart2P-Regular&quot;); color: rgb(255, 255, 255); -unity-text-align: middle-center; font-size: 24px; top: auto; align-items: center; align-self: center; align-content: auto;" />
-        <engine:VisualElement name="ConditionsElement" style="flex-grow: 1; height: 50%; justify-content: space-evenly; align-items: stretch; width: 75%;">
-            <engine:Slider label="Food" value="42" high-value="100" name="FoodSlider" class="slider slider-form" />
-            <engine:Slider label="Food X" value="42" high-value="100" name="FoodMultiplierSlider" class="slider slider-form" />
-            <engine:Slider label="Walls" value="42" high-value="100" name="WallSlider" class="slider slider-form" />
-            <engine:Slider label="Walls X" value="42" high-value="100" name="WallMultiplierSlider" class="slider slider-form" />
-            <engine:SliderInt label="Attack" value="42" high-value="100" name="AttackSlider" show-input-field="false" fill="false" language-direction="Inherit" direction="Horizontal" inverted="false" class="slider slider-form" />
-            <engine:SliderInt label="Bonus" value="42" high-value="100" name="BonusSlider" show-input-field="false" fill="false" language-direction="Inherit" direction="Horizontal" inverted="false" class="slider slider-form" />
-            <engine:Slider label="Bonus X" value="42" high-value="100" name="BonusMultiplierSlider" class="slider slider-form" />
-            <engine:SliderInt label="Waypoints" value="42" high-value="100" name="WaypointSlider" show-input-field="false" fill="false" language-direction="Inherit" direction="Horizontal" inverted="false" class="slider slider-form" style="display: none;" />
+        <engine:VisualElement name="ConditionsElement" style="flex-grow: 1; height: 50%; justify-content: space-evenly; align-items: stretch; width: 75%; align-content: auto; flex-direction: row; align-self: auto;">
+            <engine:VisualElement name="Sliders" style="flex-grow: 1; width: 90%; justify-content: space-evenly;">
+                <engine:Slider label="Food Abundance" value="42" high-value="100" name="FoodSlider" class="slider slider-form" />
+                <engine:Slider label="Food Restoration" value="42" high-value="100" name="FoodMultiplierSlider" class="slider slider-form" />
+                <engine:Slider label="Wall Density" value="42" high-value="100" name="WallSlider" class="slider slider-form" />
+                <engine:Slider label="Wall Health" value="42" high-value="100" name="WallMultiplierSlider" class="slider slider-form" />
+                <engine:SliderInt label="Attack" value="42" high-value="100" name="AttackSlider" show-input-field="false" fill="false" language-direction="Inherit" direction="Horizontal" inverted="false" class="slider slider-form" />
+                <engine:SliderInt label="Amount of&#10;Bonus Items" value="42" high-value="100" name="BonusSlider" show-input-field="false" fill="false" language-direction="Inherit" direction="Horizontal" inverted="false" class="slider slider-form" />
+                <engine:Slider label="Buff Granted&#10;by Bonus Items" value="42" high-value="100" name="BonusMultiplierSlider" class="slider slider-form" />
+                <engine:SliderInt label="Waypoints" value="42" high-value="100" name="WaypointSlider" show-input-field="false" fill="false" language-direction="Inherit" direction="Horizontal" inverted="false" class="slider slider-form" style="display: none;" />
+            </engine:VisualElement>
+            <engine:VisualElement name="Values" style="flex-grow: 1; width: 10%; justify-content: space-evenly;">
+                <engine:Label text="1.0" name="FoodValue" class="slider-form slider" style="width: 100%; justify-content: space-evenly; align-items: center; -unity-text-align: middle-center;" />
+                <engine:Label text="1.0" name="FoodMultiplierValue" class="slider-form slider" style="width: 100%; justify-content: space-evenly; align-items: center; -unity-text-align: middle-center;" />
+                <engine:Label text="1.0" name="WallValue" class="slider-form slider" style="width: 100%; justify-content: space-evenly; align-items: center; -unity-text-align: middle-center;" />
+                <engine:Label text="1.0" name="WallMultiplierValue" class="slider-form slider" style="width: 100%; justify-content: space-evenly; align-items: center; -unity-text-align: middle-center;" />
+                <engine:Label text="1.0" name="AttackValue" class="slider-form slider" style="width: 100%; justify-content: space-evenly; align-items: center; -unity-text-align: middle-center;" />
+                <engine:Label text="1.0" name="BonusValue" class="slider-form slider" style="width: 100%; justify-content: space-evenly; align-items: center; -unity-text-align: middle-center;" />
+                <engine:Label text="1.0" name="BonusMultiplierValue" class="slider-form slider" style="width: 100%; justify-content: space-evenly; align-items: center; -unity-text-align: middle-center;" />
+            </engine:VisualElement>
         </engine:VisualElement>
         <engine:TextField label="Multiplier:" placeholder-text="1.0X" readonly="true" focusable="false" select-all-on-mouse-up="false" select-all-on-focus="false" select-word-by-double-click="false" select-line-by-triple-click="false" name="MultiplierTextField" class="pause-toggle" style="font-size: 22px; align-content: flex-start; justify-content: flex-start; align-items: center; -unity-background-image-tint-color: rgba(255, 255, 255, 0); display: none;" />
         <engine:Button text="START" name="ResumeButton" selectable="true" enabled="true" class="pause-button" />

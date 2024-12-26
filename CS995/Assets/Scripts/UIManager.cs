@@ -44,6 +44,13 @@ public class UIManager : MonoBehaviour
     private bool _DisplayingNotification = false;
     private VisualElement _tutorialPanel;
     private Button _tutorialResumeButton;
+    private Label _foodValue;
+    private Label _foodMultiplierValue;
+    private Label _wallValue;
+    [SerializeField] private Label _wallMultiplierValue;
+    private Label _attackValue;
+    private Label _bonusValue;
+    private Label _bonusMultiplierValue;
 
     private void Start()
     {
@@ -99,27 +106,41 @@ public class UIManager : MonoBehaviour
         _conditionsElement = _conditionPanel.Q<VisualElement>("ConditionsElement");
 
         _foodSlider = _conditionsElement.Q<Slider>("FoodSlider");
+        _foodValue = _conditionsElement.Q<Label>("FoodValue");
+        _foodValue.text = _boardManager.TargetFood.ToString("P0");
         _foodSlider.highValue = 1.0f;
         _foodSlider.value = _boardManager.TargetFood;
         _foodMultiplierSlider = _conditionsElement.Q<Slider>("FoodMultiplierSlider");
+        _foodMultiplierValue = _conditionsElement.Q<Label>("FoodMultiplierValue");
+        _foodMultiplierValue.text = _gameManager.FoodMultiplier.ToString("0.0") + " x";
         _foodMultiplierSlider.highValue = 4.0f;
         _foodMultiplierSlider.value = _gameManager.FoodMultiplier;
 
         _wallSlider = _conditionsElement.Q<Slider>("WallSlider");
+        _wallValue = _conditionsElement.Q<Label>("WallValue");
+        _wallValue.text = _boardManager.TargetWalls.ToString("P0");
         _wallSlider.highValue = 1.0f;
         _wallSlider.value = _boardManager.TargetWalls;
         _wallMultiplierSlider = _conditionsElement.Q<Slider>("WallMultiplierSlider");
+        _wallMultiplierValue = _conditionsElement.Q<Label>("WallMultiplierValue");
+        _wallMultiplierValue.text = _gameManager.WallMultiplier.ToString("0.0") + " x";
         _wallMultiplierSlider.highValue = 4.0f;
         _wallMultiplierSlider.value = _gameManager.WallMultiplier;
 
         _attackSlider = _conditionsElement.Q<SliderInt>("AttackSlider");
+        _attackValue = _conditionsElement.Q<Label>("AttackValue");
+        _attackValue.text = _gameManager.Player.AttackPower.ToString();
         _attackSlider.highValue = _gameManager.CurrentLevel + 9;
         _attackSlider.value = _gameManager.Player.AttackPower;
 
         _bonusSlider = _conditionsElement.Q<SliderInt>("BonusSlider");
+        _bonusValue = _conditionsElement.Q<Label>("BonusValue");
+        _bonusValue.text = _boardManager.TargetPowerups.ToString();
         _bonusSlider.highValue = (_boardManager.boardSize.x - 2) * (_boardManager.boardSize.y - 2) / 2;
         _bonusSlider.value = _boardManager.TargetPowerups;
         _bonusMultiplierSlider = _conditionsElement.Q<Slider>("BonusMultiplierSlider");
+        _bonusMultiplierValue = _conditionsElement.Q<Label>("BonusMultiplierValue");
+        _bonusMultiplierValue.text = _gameManager.BonusMultiplier.ToString("0.0") + " x";
         _bonusMultiplierSlider.value = _gameManager.BonusMultiplier;
         _bonusMultiplierSlider.highValue = 4.0f;
 
@@ -212,25 +233,32 @@ public class UIManager : MonoBehaviour
     {
         float mult = 1;
         _boardManager.TargetFood = _foodSlider.value;
+        _foodValue.text = _boardManager.TargetFood.ToString("P0");
         mult *= _boardManager.initTargetFood / _boardManager.TargetFood;
         _boardManager.TargetWalls = _wallSlider.value;
+        _wallValue.text = _boardManager.TargetWalls.ToString("P0");
         mult *= _boardManager.TargetWalls / _boardManager.initTargetWalls;
 
         _playersInitAttackPower ??= _gameManager.Player.AttackPower;
         _gameManager.Player.AttackPower = _attackSlider.value;
+        _attackValue.text = _gameManager.Player.AttackPower.ToString();
         mult *= (float)_playersInitAttackPower / _gameManager.Player.AttackPower;
 
         //These are always default 0, base mult on that
         _gameManager.WaypointTarget = _waypointSlider.value;
         mult *= _gameManager.WaypointTarget < 1 ? 1 : (float)_gameManager.WaypointTarget + 1;
         _boardManager.TargetPowerups = _bonusSlider.value;
+        _bonusValue.text = _boardManager.TargetPowerups.ToString();
         mult *= _boardManager.TargetPowerups < 1 ? 1 : 1 / ((float)_boardManager.TargetPowerups + 1);
 
         _gameManager.FoodMultiplier = _foodMultiplierSlider.value;
+        _foodMultiplierValue.text = _gameManager.FoodMultiplier.ToString("0.0") + " x";
         mult *= 1 / _gameManager.FoodMultiplier;
         _gameManager.WallMultiplier = _wallMultiplierSlider.value;
+        _wallMultiplierValue.text = _gameManager.WallMultiplier.ToString("0.0") + " x";
         mult *= _gameManager.WallMultiplier;
         _gameManager.BonusMultiplier = _bonusMultiplierSlider.value;
+        _bonusMultiplierValue.text = _gameManager.BonusMultiplier.ToString("0.0") + " x";
         mult *= 1 / _gameManager.BonusMultiplier;
 
         _multiplierTextField.value = mult.ToString("n2") + "X";
