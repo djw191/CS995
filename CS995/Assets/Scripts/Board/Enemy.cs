@@ -72,6 +72,7 @@ namespace Board
             if (_player.Position == nextCell)
             {
                 GameManager.Instance.AttackPlayer(AttackPower);
+                GameManager.Instance.UIManager.DisplayNotification( $"Enemy attacked you, dealing {AttackPower} damage!", Color.red);
                 moveApproved = GameManager.Instance.BoardManager.RequestMove(new BoardManager.ActionData(Position,
                     Mathf.Abs(diff.x) > Mathf.Abs(diff.y)
                         ? new Vector2Int(Position.x + (diff.x > 0 ? 1 : -1), Position.y)
@@ -92,13 +93,18 @@ namespace Board
 
         public override bool AttemptEnter(IMoveableObject moveableObject)
         {
+            
             if (_hitPoints <= 0)
             {
+                if(moveableObject is PlayerController)
+                    GameManager.Instance.UIManager.DisplayNotification( $"You attacked an enemy killing it!", Color.green);
                 Destroy(gameObject);
                 return true;
             }
-
+            
             _hitPoints -= moveableObject.AttackPower;
+            if(moveableObject is PlayerController)
+                GameManager.Instance.UIManager.DisplayNotification( $"You attacked an enemy, dealing {moveableObject.AttackPower} damage!", Color.green);
             _animator.SetTrigger(Damaged);
             return false;
         }

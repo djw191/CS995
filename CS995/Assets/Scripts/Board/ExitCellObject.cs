@@ -16,6 +16,8 @@ namespace Board
         public override void Entered(bool isPlayer, IMoveableObject moveableObject)
         {
             base.Entered(false, moveableObject);
+            if(moveableObject is PlayerController)
+                GameManager.Instance.UIManager.DisplayNotification( $"You reached the exit of the level!!", Color.green);
             GameManager.Instance.NewLevel();
         }
     }

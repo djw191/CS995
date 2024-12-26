@@ -22,15 +22,20 @@ namespace Board
 
         public override bool AttemptEnter(IMoveableObject moveableObject)
         {
-            if (HitPoints <= 0) return true;
-
-
+            string attacker = (moveableObject is PlayerController ? "You" : "Enemy");
+            if (HitPoints <= 0)
+            {
+                GameManager.Instance.UIManager.DisplayNotification( $"{attacker} destroyed a wall!");
+                return true;
+            }
             HitPoints -= moveableObject.AttackPower;
+            GameManager.Instance.UIManager.DisplayNotification( $"{attacker} attacked a wall, doing {moveableObject.AttackPower} damage!");
+
             if (HitPoints <= 1)
                 GameManager.Instance.BoardManager.SetCellTile(Position, damagedObstacleTile);
 
             if (HitPoints > 0) return false;
-
+            
             GameManager.Instance.BoardManager.SetCellTile(Position, _originalTile);
             Destroy(gameObject);
             return false;

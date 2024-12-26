@@ -129,6 +129,7 @@ public class GameManager : MonoBehaviour
     {
         ChangeFood(amount);
         //UIManager.DisplayMessageBox($"You consumed {amount} food.");
+        UIManager.DisplayNotification($"You consumed {amount} food!", Color.green);
     }
 
     public void UpdateMovementFoodPlayer()

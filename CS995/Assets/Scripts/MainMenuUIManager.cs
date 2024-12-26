@@ -12,6 +12,7 @@ public class MainMenuUIManager : MonoBehaviour
     private Button _backButton;
     private VisualElement _menu;
     private VisualElement _credits;
+    private Button _showTutorial;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Start()
@@ -23,14 +24,21 @@ public class MainMenuUIManager : MonoBehaviour
         _backButton = _uiDocument.rootVisualElement.Q<Button>("BackButton");
         _menu = _uiDocument.rootVisualElement.Q<VisualElement>("Menu");
         _credits = _uiDocument.rootVisualElement.Q<VisualElement>("Credits");
+        _showTutorial = _uiDocument.rootVisualElement.Q<Button>("ShowTutorialButton");
 
         _startButton.clicked += StartButtonOnclicked;
         _quitButton.clicked += Application.Quit;
+        _showTutorial.clicked += ShowTutorialOnClicked;
 
         _creditsButton.clicked += CreditsButtonOnclicked;
         _backButton.clicked += BackButtonOnClicked;
         _credits.style.visibility = Visibility.Hidden;
         StartCoroutine(UIManager.FocusElement(_startButton));
+    }
+
+    private void ShowTutorialOnClicked()
+    {
+        PlayerPrefs.SetInt("Tutorial", 0);
     }
 
     private void BackButtonOnClicked()
@@ -44,6 +52,7 @@ public class MainMenuUIManager : MonoBehaviour
     {
         _startButton.clicked -= StartButtonOnclicked;
         _quitButton.clicked -= Application.Quit;
+        _showTutorial.clicked -= ShowTutorialOnClicked;
     }
 
     private void StartButtonOnclicked()
