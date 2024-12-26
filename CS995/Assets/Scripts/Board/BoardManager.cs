@@ -141,11 +141,11 @@ namespace Board
             var endPosition = new Vector2Int(boardSize.x - 2, boardSize.y - 2);
             AddObject(Instantiate(exitCellPrefab), endPosition);
             _emptyTiles.Remove(endPosition);
-
-            GenerateFood();
-            GenerateWalls();
+            
             GenerateEnemies();
             GeneratePowerups();
+            GenerateWalls();
+            GenerateFood();
         }
 
         private void ClearMovement()
@@ -239,6 +239,7 @@ namespace Board
         {
             for (var i = 0; i < TargetPowerups; i++)
             {
+                if (_emptyTiles.Count <= 0) return;
                 var position = _emptyTiles[Random.Range(0, _emptyTiles.Count)];
                 _emptyTiles.Remove(position);
                 var powerup = Instantiate(powerupPrefabs[Random.Range(0, powerupPrefabs.Length)]);
@@ -250,6 +251,7 @@ namespace Board
         {
             for (var i = 0; i < Mathf.FloorToInt(targetEnemies); i++)
             {
+                if (_emptyTiles.Count <= 0) return;
                 var position = _emptyTiles[Random.Range(0, _emptyTiles.Count)];
                 _emptyTiles.Remove(position);
 
@@ -263,6 +265,7 @@ namespace Board
             var amount = Mathf.Min(GetNumberOfTilesToSpawn(TargetFood, foodVariance), _emptyTiles.Count);
             for (var i = 0; i < amount; i++)
             {
+                if (_emptyTiles.Count <= 0) return;
                 var position = _emptyTiles[Random.Range(0, _emptyTiles.Count)];
                 _emptyTiles.Remove(position);
 
@@ -276,6 +279,7 @@ namespace Board
             var amount = Mathf.Min(GetNumberOfTilesToSpawn(TargetWalls, wallsVariance), _emptyTiles.Count);
             for (var i = 0; i < amount; i++)
             {
+                if (_emptyTiles.Count <= 0) return;
                 var position = _emptyTiles[Random.Range(0, _emptyTiles.Count)];
                 _emptyTiles.Remove(position);
 
